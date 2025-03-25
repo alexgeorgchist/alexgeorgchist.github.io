@@ -108,7 +108,7 @@ height: 0;
 
 border: 0px solid #000;
  float:left;
- width:50%;
+ width:47%;
  margin-right:0px;
  border: 0px solid #1c2aad;
  background: #fffcf7;
@@ -123,9 +123,9 @@ border: 0px solid #000;
 #content #colRight {
  position:relative;
  margin-top: 0px;
- margin-left:27px;
+ margin-left:0px;
  float:Left;
- width:50%;
+ width:47%;
  border: 0px solid #1c2aad;
  background: #fff5e4;
 }
