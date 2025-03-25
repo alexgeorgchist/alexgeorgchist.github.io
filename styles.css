@@ -108,7 +108,7 @@ height: 0;
 
 border: 0px solid #000;
  float:left;
- width:67%;
+ width:50%;
  margin-right:0px;
  border: 0px solid #1c2aad;
  background: #fffcf7;
@@ -125,8 +125,8 @@ border: 0px solid #000;
  margin-top: 0px;
  margin-left:27px;
  float:Left;
- width:30%;
- border: 1px solid #1c2aad;
+ width:50%;
+ border: 0px solid #1c2aad;
  background: #fff5e4;
 }
 
