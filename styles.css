@@ -99,7 +99,7 @@ height: 0;
 #content #buttons-top {
 display: flex; justify-content: center;
 font-size: 1.5em;
-border: 0px solid #1c2aad;
+border: 1px solid #1c2aad;
 margin-top: 0px;
  margin-bottom: 10px;
 }
@@ -107,7 +107,7 @@ margin-top: 0px;
 #content #buttons-bottom {
 display: flex; justify-content: center;
 font-size: 1.5em;
-border: 0px solid #1c2aad;
+border: 1px solid #1c2aad;
 margin-top: 0px;
  margin-bottom: 0px;
 }
@@ -128,7 +128,7 @@ border: 1px solid #000;
  margin-left:0px;
  float:Left;
  width:100%;
- border: 0px solid #1c2aad;
+ border: 1px solid #1c2aad;
  background: #fff5e4;
 }
 
