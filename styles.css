@@ -79,7 +79,7 @@ a:hover {
 
 
 .text {
- margin:10px;
+ margin:15px;
  border: 0px solid #1c2aad;
 }
 
@@ -99,7 +99,7 @@ height: 0;
 #content #buttons-top {
 display: flex; justify-content: center;
 font-family: "Monomakh";
-font-size: 1.6em;
+font-size: 1.7em;
 border: 0px solid #1c2aad;
 margin-top: 0px;
  margin-bottom: 20px;
