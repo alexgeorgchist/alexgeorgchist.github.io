@@ -97,7 +97,7 @@ height: 0;
 
 
 #content #buttons-top {
-display: flex; text-align: center;
+display: flex; justify-content: center;
 font-size: 1.5em;
 border: 0px solid #1c2aad;
 margin-top: 0px;
