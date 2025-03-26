@@ -65,7 +65,7 @@ a:hover {
   margin-top:0px;
   border:0px solid #000;
   width: 100%;
-  max-width:1000px;
+  max-width:320px;
   margin: 0 auto;
   height: auto !important;
   background: #fffcf7;
@@ -98,7 +98,7 @@ height: 0;
 
 border: 0px solid #000;
  float:left;
- width:67%;
+ width:100%;
  margin-right:0px;
  border: 0px solid #1c2aad;
  background: #fffcf7;
@@ -113,9 +113,9 @@ border: 0px solid #000;
 #content #colRight {
  position:relative;
  margin-top: 0px;
- margin-left:27px;
+ margin-left:0px;
  float:Left;
- width:30%;
+ width:100%;
  border: 1px solid #1c2aad;
  background: #fff5e4;
 }
@@ -123,9 +123,9 @@ border: 0px solid #000;
  #content #footer {
   position:relative;
   margin-top: 10px;
-  margin-left:200px;
+  margin-left 0px;
   float:Left;
-  width:60%;
+  width:100%;
   border: 0px solid #1c2aad;
   background: #fffcf7;
  }
