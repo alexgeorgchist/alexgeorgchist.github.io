@@ -44,6 +44,15 @@ h3 {
  font-style: normal;
 }
 
+p {
+font-size: 18px;
+}
+
+#text {
+ margin: 20px;
+ border: 0px solid #1c2aad;
+}
+
 a {
  color: #cd5252;
  text-decoration: none;
@@ -74,11 +83,7 @@ a:hover {
  }
 
 
-#text {
- font-size: 18px;
- margin: 0px;
- border: 0px solid #1c2aad;
-}
+
 
 /* -------------------------------
  Главный контент
