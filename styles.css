@@ -107,7 +107,7 @@ height: 0;
 }
 
 
-content #buttons-top {
+buttons-top {
 font-family: "Monomakh";
 font-size: 1.8em;
 border: 0px solid #1c2aad;
@@ -117,7 +117,7 @@ margin: auto;
 display: flex; justify-content: center; align-items: center;
 }
 
-content #buttons-bottom {
+buttons-bottom {
 font-family: "Monomakh";
 font-size: 1.8em;
 border: 0px solid #1c2aad;
