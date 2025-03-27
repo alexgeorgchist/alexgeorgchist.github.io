@@ -65,8 +65,7 @@ a:hover {
 
 
 .text {
- width: 480px;
- margin: 0px;
+ margin: 10px;
  border: 0px solid #1c2aad;
 }
 
@@ -83,7 +82,7 @@ height: 0;
 }
 
 
-buttons-top {
+buttions-top {
 font-family: "Monomakh";
 font-size: 24px;
 border: 0px solid #1c2aad;
