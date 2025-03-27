@@ -9,7 +9,6 @@ body {
  color:#000000;
  background: url(images/body.png) 0px 0px repeat;
  font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-size:1.1em;
  line-height:135%;
 }
 
@@ -27,7 +26,7 @@ h1 {
 h2 {
  text-align: center;
  font-family: "Monomakh";
- font-size:1.4em;
+ font-size:1.2em;
  font-weight:normal;
  padding:0px 0 0px;
  line-height:100%;
@@ -36,7 +35,7 @@ h2 {
 
 h3 {
  text-align: center;
- font-size:1.3em;
+ font-size:1.0em;
  font-weight:normal;
  padding:0px 0 0px;
  line-height:100%;
@@ -45,7 +44,7 @@ h3 {
 
 h4 {
  text-align: center;
- font-size:1.2em;
+ font-size:0.8em;
  font-weight:normal;
  padding:0px 0 0px;
  line-height:100%;
