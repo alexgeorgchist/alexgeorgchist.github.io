@@ -53,7 +53,7 @@ a:hover {
  Ширина сайта в 480px
  ----------------------------------*/
 
- wrapper {
+ #wrapper {
   margin-top: 0px;
   border:0px solid #000;
   width: 100%;
@@ -73,7 +73,7 @@ a:hover {
  Главный контент
  ----------------------------------*/
 
-main: after {
+#main: after {
 content: '.';
 display: block;
 clear: both;
@@ -82,7 +82,7 @@ height: 0;
 }
 
 
-buttions-top {
+#content #buttons-top {
 font-family: "Monomakh";
 font-size: 24px;
 border: 0px solid #1c2aad;
@@ -91,7 +91,7 @@ margin-bottom: 10px;
 display: flex; justify-content: center; align-items: center;
 }
 
-buttons-bottom {
+#content #buttons-bottom {
 font-family: "Monomakh";
 font-size: 24px;
 border: 0px solid #1c2aad;
@@ -100,7 +100,7 @@ margin-bottom: 0px;
 display: flex; justify-content: center; align-items: center;
 }
 
-content1 {
+#content #content1 {
 
 border: 0px solid #000;
 float: left;
@@ -109,10 +109,9 @@ margin-right: 10px;
 margin-left: 10px; 
 border: 0px solid #1c2aad;
 background: #ede8d0;
-font-size: 16px;
 }
 
-content2 {
+#content #content2 {
 /*position:relative;*/
 margin-top: 0px;
 margin-right: 10px; 
@@ -122,7 +121,7 @@ border: 0px solid #1c2aad;
 background: #ede8d0;
 }
 
-content #footer {
+#content #footer {
 margin-top: 10px;
 margin-right: 0px; 
 margin-left: 0px;
