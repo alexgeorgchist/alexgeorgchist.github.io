@@ -112,6 +112,8 @@ display: block;
 clear: both;
 visibility: hidden;
 height: 0;
+max-width:480px;
+background: #00ff00;
 }
 
 
