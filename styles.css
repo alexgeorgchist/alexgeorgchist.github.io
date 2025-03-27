@@ -79,7 +79,7 @@ a:hover {
   max-width:480px;
   margin: 0 auto;
   height: auto !important;
-  background: #faf0e6;
+  background: #fff0db;
  }
 
 /* -------------------------------
@@ -128,7 +128,7 @@ margin-bottom: 0px;
  width:100%;
  margin: 10px;
  border: 1px solid #1c2aad;
- background: #faf0e6;
+ background: #fff0db;
 }
 
 #content #content2 {
@@ -138,7 +138,7 @@ margin-bottom: 0px;
  float:Left;
  width:100%;
  border: 1px solid #1c2aad;
- background: #faf0e6;
+ background: #ffff0db;
 }
 
  #content #footer {
@@ -148,7 +148,7 @@ margin-bottom: 0px;
   float:Left;
   width:100%;
   border: 0px solid #1c2aad;
-  background: #faf0e6;
+  background: #fff0db;
  }
 
 
