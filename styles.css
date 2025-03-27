@@ -115,7 +115,7 @@ display: flex; justify-content: center; align-items: center;
 }
 
 #content #content1 {
-
+padding: 15px;
 border: 0px solid #000;
 float: left;
 width: 100%;
@@ -127,6 +127,7 @@ background: #faf0e6;
 
 #content #content2 {
 /*position:relative;*/
+padding: 15px; 
 margin-top: 0px;
 margin-right: 0px; 
 margin-left: 0px;
