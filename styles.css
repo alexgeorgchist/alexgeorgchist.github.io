@@ -60,7 +60,7 @@ a:hover {
   max-width: 480px;
   margin: 0 auto;
   height: auto !important;
-  background: #f6ecc0;
+  /*background: #f6ecc0;*/
  }
 
 
@@ -79,6 +79,10 @@ display: block;
 clear: both;
 visibility: hidden;
 height: 0;
+}
+
+#top {
+background: #f6ecc0;
 }
 
 
@@ -105,8 +109,8 @@ display: flex; justify-content: center; align-items: center;
 border: 0px solid #000;
 float: left;
 width: 100%;
-margin-right: 10px;
-margin-left: 10px; 
+margin-right: 0px;
+margin-left: 0px; 
 border: 0px solid #1c2aad;
 background: #fff6d2;
 }
@@ -114,8 +118,8 @@ background: #fff6d2;
 #content #content2 {
 /*position:relative;*/
 margin-top: 0px;
-margin-right: 10px; 
-margin-left: 10px;
+margin-right: 0px; 
+margin-left: 0px;
 width:100%;
 border: 0px solid #1c2aad;
 background: #fff6d2;
