@@ -60,7 +60,7 @@ a:hover {
   max-width: 480px;
   margin: 0 auto;
   height: auto !important;
-  background: #fffcf7;
+  background: #f6ecc0;
  }
 
 
@@ -108,7 +108,7 @@ width: 100%;
 margin-right: 10px;
 margin-left: 10px; 
 border: 0px solid #1c2aad;
-background: #ede8d0;
+background: #fff6d2;
 }
 
 #content #content2 {
@@ -118,7 +118,7 @@ margin-right: 10px;
 margin-left: 10px;
 width:100%;
 border: 0px solid #1c2aad;
-background: #ede8d0;
+background: #fff6d2;
 }
 
 #content #footer {
@@ -128,7 +128,7 @@ margin-left: 0px;
 width:100%;
 max-width: 480px;
 border: 0px solid #1c2aad;
-background: #fffcf7;
+background: #f6ecc0;
 display: flex; justify-content: center; align-items: center; 
 }
 
