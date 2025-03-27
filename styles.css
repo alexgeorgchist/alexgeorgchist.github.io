@@ -65,12 +65,12 @@ a:hover {
 
  #wrapper {
   margin-top:0px;
-  border:5px solid #000;
+  border:0px solid #000;
   width: 100%;
   max-width:480px;
   margin: 0 auto;
   height: auto !important;
-  background: #fff5e4;
+  background: #f4f1e2;
  }
 
 /* -------------------------------
