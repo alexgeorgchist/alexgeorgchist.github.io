@@ -138,6 +138,7 @@ margin-bottom: 0px;
 #content #content1 {
  float:left;
  width:100%;
+max-width:480px;
  margin: 10px;
  border: 1px solid #1c2aad;
  background: #ffffff;
