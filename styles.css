@@ -68,9 +68,9 @@ a:hover {
   border:0px solid #000;
   width: 100%;
   max-width:480px;
-  margin: 0 auto;
+  margin: 20px;
   height: auto !important;
-  background: #f4f1e2;
+  background: #ede8d0;
  }
 
 /* -------------------------------
