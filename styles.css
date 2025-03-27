@@ -100,7 +100,7 @@ margin-bottom: 0px;
 display: flex; justify-content: center; align-items: center;
 }
 
-content #content1 {
+content1 {
 
 border: 0px solid #000;
 float: left;
@@ -112,7 +112,7 @@ background: #ede8d0;
 font-size: 16px;
 }
 
-content #content2 {
+content2 {
 /*position:relative;*/
 margin-top: 0px;
 margin-right: 10px; 
