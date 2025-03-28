@@ -31,7 +31,6 @@ body {
  height: 100%;
  color:#000000;
  /*background: url(images/body.png) 0px 0px repeat;*/
- font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
  line-height:135%;
 }
 
@@ -57,7 +56,7 @@ h1 {
 
 h2 {
  text-align: center;
- /*font-family: "Monomakh";*/
+ font-family: "Monomakh";
  font-size: 1.4em;
  font-weight: normal;
  padding: 0px 0 0px;
@@ -147,7 +146,6 @@ display: flex; justify-content: center; align-items: center;
 
 #content #content1 {
 border: 0px solid #000;
-float: left;
 width: 100%;
 
 margin: 15px;
