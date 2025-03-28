@@ -26,8 +26,8 @@ body {
 }
 
 
-logo_title {
-font-family: `aRusdDecor`, sans-serif;
+.logo_title {
+font-family: `aRusdDecor`;
 font-weight: 400;
 line-height: 60px;
 text-trsnsform: uppercase;
