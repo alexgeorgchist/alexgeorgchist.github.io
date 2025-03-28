@@ -99,8 +99,8 @@ a:hover {
  #wrapper {
   margin-top: 0px;
   border:0px solid #000;
-  width: 100%;
-  max-width: 480px;
+  
+  width: 480px;
   margin: 0 auto;
   height: auto !important;
   /*background: #f6ecc0;*/
