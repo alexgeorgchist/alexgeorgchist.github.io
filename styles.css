@@ -98,7 +98,7 @@ a:hover {
 
  #wrapper {
   margin-top: 0px;
-  border:1px solid #000;
+  border:0px solid #000;
   
   width: 480px;
   margin: 0 auto;
@@ -148,16 +148,13 @@ display: flex; justify-content: center; align-items: center;
 border: 0px solid #000;
 width: 100%;
 
-margin: 0px;
+margin: 15px;
 border: 0px solid #1c2aad;
 background: #ffffff;
 }
 
 #content #content2 {
-/*position:relative;*/
-margin-top: 0px;
-margin-right: 0px; 
-margin-left: 0px;
+margin: 15px;
 width:100%;
 border: 0px solid #1c2aad;
 background: #ffffff;
