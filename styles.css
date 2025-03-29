@@ -3,23 +3,18 @@
  padding: 0;
 }
 
-@font-face {
-	font-family: 'ARussDecor';
-	src: url('../fonts/arussdecor.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/arussdecor.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/arussdecor.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/arussdecor.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		src: url('../fonts/arussdecor.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/arussdecor.svg#arussdecor') format('svg'); /* Chrome < 4, Legacy iOS */
-font-style: normal; 
-font-weight: normal;
+
+.monomakh-regular {
+  font-family: "Monomakh", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
+
 
 .pt-sans-regular {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 19px;
+  font-style: normal;  
 }
 
 
@@ -29,7 +24,7 @@ font-weight: normal;
 body {
  width: 100%;
  height: 100%;
- color:#000000;
+ color: #000;;
  /*background: url(images/body.png) 0px 0px repeat;*/
 }
 
@@ -46,7 +41,7 @@ color: #89030c;
 h1 {
  text-align: center;
  font-family: "Monomakh";
- font-size: 1.6em;
+ font-size: 1.9em;
  font-weight: normal;
  padding: 0px 0 0px;
  line-height: 100%;
@@ -56,25 +51,13 @@ h1 {
 h2 {
  text-align: center;
  font-family: "Monomakh";
- font-size: 1.4em;
+ font-size: 1.6em;
  font-weight: normal;
  padding: 0px 0 0px;
  line-height: 100%;
  font-style: normal;
 }
 
-h3 {
- text-align: center;
- font-family: "Monomakh";
- font-size: 1.2em;
- font-weight: normal;
- padding: 0px 0 0px;
- line-height: 100%;
- font-style: normal;
-}
-
-.text {
-}
 
 a {
  color: #cd5252;
@@ -125,47 +108,61 @@ background: #fafaf0;
 }
 
 
-#content #buttons-top {
+#buttons-top {
 font-family: "Monomakh";
 font-size: 28px;
 border: 0px solid #1c2aad;
 margin-top: 0px;
-margin-bottom: 10px;
+margin-bottom: 0px;
+background: #fafaf0;
 display: flex; justify-content: center; align-items: center;
 }
 
-#content #buttons-bottom {
+#buttons-bottom {
 font-family: "Monomakh";
 font-size: 28px;
 border: 0px solid #1c2aad;
-margin-top: 10px;
+margin-top: 0px;
+background: #fafaf0;
 margin-bottom: 0px;
 display: flex; justify-content: center; align-items: center;
 }
 
+#content {
+  border: 0px solid #000;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
+  border: 0px solid #1c2aad;
+  }
+
 #content #content1 {
-border: 0px solid #000;
+border: 0x solid #000;
 width: 100%;
-padding-left: 15px;
-padding-right: 15px;
-margin: 0px;
+padding-left: 0px;
+padding-right: 0px;
 border: 0px solid #1c2aad;
 background: #ffffff;
 }
 
 #content #content2 {
-padding-left: 15px;
-padding-right: 15px;
-margin: 0px;
+padding-left: 0px;
+padding-right: 0px;
 width:100%;
 border: 0px solid #1c2aad;
 background: #ffffff;
+}
+
+.text { 
+  margin: 15px;
 }
 
 #content #footer {
 margin-top: 10px;
 width:100%;
 max-width: 480px;
+font-size: 28px;
 border: 0px solid #1c2aad;
 background: #f6ecc0;
 display: flex; justify-content: center; align-items: center; 
