@@ -31,7 +31,6 @@ body {
  height: 100%;
  color:#000000;
  /*background: url(images/body.png) 0px 0px repeat;*/
- line-height:135%;
 }
 
 
@@ -148,13 +147,13 @@ display: flex; justify-content: center; align-items: center;
 border: 0px solid #000;
 width: 100%;
 
-margin: 15px;
+margin: 0px;
 border: 0px solid #1c2aad;
 background: #ffffff;
 }
 
 #content #content2 {
-margin: 15px;
+margin: 0px;
 width:100%;
 border: 0px solid #1c2aad;
 background: #ffffff;
