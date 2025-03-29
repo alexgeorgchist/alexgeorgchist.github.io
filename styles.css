@@ -146,13 +146,16 @@ display: flex; justify-content: center; align-items: center;
 #content #content1 {
 border: 0px solid #000;
 width: 100%;
-
+padding-left: 15px;
+padding-right: 15px;
 margin: 0px;
 border: 0px solid #1c2aad;
 background: #ffffff;
 }
 
 #content #content2 {
+padding-left: 15px;
+padding-right: 15px;
 margin: 0px;
 width:100%;
 border: 0px solid #1c2aad;
