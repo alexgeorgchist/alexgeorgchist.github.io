@@ -66,7 +66,7 @@
 
 .block_title {
  font-family: "PT Sans", sans-serif;
- font-size:2em;
+ font-size:1.8em;
  padding-left: 0 3%;
  font-style: regular;
  font-weight:normal;
@@ -75,7 +75,7 @@
 
 .block_subtitle {
  font-family: "PT Sans", sans-serif;
- font-size:1.5em;
+ font-size:1.4em;
   font-style: regular;
  font-weight:normal;
 }
@@ -84,7 +84,7 @@
   font-family: "PT Sans", sans-serif;
   font-style: regular;
    font-weight:normal;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 
