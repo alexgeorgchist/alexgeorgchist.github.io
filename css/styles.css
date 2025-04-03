@@ -65,9 +65,9 @@
 
 .block_subtitle {
  font-family: "PT Sans", sans-serif;
- font-size:1em;
+ font-size:1.2em;
   font-style: regular;
- font-weight:normal;
+ font-weight:bold;
 }
 
 .block_text {
