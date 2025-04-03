@@ -1,31 +1,120 @@
 @font-face {
 	font-family: 'PT Sans'; 
-	src: url("fonts\PTSans\PTSans-Bold.ttf"),
-    url("fonts\PTSans\PTSans-BoldItalic.ttf"),
-    url("fonts\PTSans\PTSans-Italic.ttf"),
-    url("fonts\PTSans\PTSans-Regular.ttf");
+	src: url("fonts\PTSans\PTSans-Bold.ttf"),  
+       url("fonts\PTSans\PTSans-Regular.ttf");
 
  }
+
+ @font-face {
+	font-family: 'Sofia_Sans_Condensed'; 
+	src: url("fonts\Sofia_Sans_Condensed/SofiaSansCondensed-Regular.ttf"),  
+       url("fonts\Sofia_Sans_Condensed/SofiaSansCondensed-Medium.ttf");  
+
+ }
+
+
+
+/*----------------MENU----------------------*/
+nav {
+  font-family: "PT Sans", sans-serif;
+  font-style: regular;
+  font-weight:normal;
+  background-color: #49060d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.2em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: lightgreen;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .checkbtn {
+    display: block;
+    order: 1;
+    margin-right: 20px;
+  }
+
+  ul {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  }
+
+  ul li {
+    margin: 20px 0;
+  }
+
+  ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    right: 0;
+  }
+}
+
+
+
   
  /*  --------------adaptiv setka-------------- */
   
   .container {
      display: flex;
      flex-wrap: wrap;
-     margin: 0 5%;
-     
-    
   }
   .aside, .main {
      width: 100%;
-     min-height: 1px;
-     
+     min-height: 1px;     
   }
 
-
+ 
   
   
-  @media (min-width: 640px) {
+  @media (min-width: 992px) {
     .aside {
       flex: 0 0 32%;
       max-width: 32%;
@@ -36,11 +125,11 @@
       flex: 0 0 60%;
       width: 60%;
       order: 1;  
-      width: 100%;
+      
      }
      html, body {
        margin: auto;
-       max-width: 1000px;
+       max-width: 1200px;
      }
    }
 
@@ -55,10 +144,11 @@
 
 .block_title {
  font-family: "PT Sans", sans-serif;
- font-size:1.4em;
+ font-size:1.2em;
  padding-left: 6%;
  font-style: regular;
  font-weight:normal;
+ line-height: 135%;
  color: #ffffff;
  background: #49060d;
 }
@@ -95,20 +185,6 @@ a:hover {
 	
 }
 
-#buttons {
- margin-top: 3%;
-	text-align: center;
- font-family: "PT Sans", sans-serif;
-  font-weight: 400;
- font-weight:normal;
- padding:0px 0 0px;
- line-height:135%;
- font-style:normal;
-font-size: 1.2em;
-border: 0px solid #1c2aad;
-background: #49060d;
-margin-bottom: 5%;
-}
 
 
 .main {
