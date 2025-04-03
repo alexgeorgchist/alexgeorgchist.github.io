@@ -91,7 +91,7 @@
 
 
 a {
- color: #49060d;
+ color: #ffffff;
  text-decoration:none;
 }
 
@@ -106,7 +106,6 @@ a:hover {
 }
 
 #buttons {
-color: #ffffff;
  margin-top: 3%;
 	text-align: center;
  font-family: "PT Sans", sans-serif;
