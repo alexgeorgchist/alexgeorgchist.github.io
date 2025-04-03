@@ -1,0 +1,175 @@
+@font-face {
+	font-family: 'PT Sans'; 
+	src: url("fonts\PTSans\PTSans-Bold.ttf"),
+    url("fonts\PTSans\PTSans-BoldItalic.ttf"),
+    url("fonts\PTSans\PTSans-Italic.ttf"),
+    url("fonts\PTSans\PTSans-Regular.ttf");
+}
+  
+ /*  --------------adaptiv setka-------------- */
+  
+  .container {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 3%;
+    
+  }
+  .aside, .main {
+     width: 100%;
+     min-height: 1px;
+     
+  }
+  
+  @media (min-width: 640px) {
+    .aside {
+      flex: 0 0 25.333333%;
+      max-width: 25%;
+      order: 2; 
+      margin-left: 8%;
+     }
+    .main {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+      order: 1;  
+      
+     }
+     html, body {
+       margin: auto;
+       max-width: 1000px;
+     }
+   }
+
+   @media (min-width: 1400px) {
+        .aside {
+      flex: 0 0 25.333333%;
+      max-width: 25%;
+      order: 2; 
+      margin-left: 8%;
+     }
+    .main {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+      order: 1;  
+      
+     }
+     html, body {
+       margin: auto;
+       max-width: 1000px;
+    }
+  }
+  
+  
+   
+  
+/*---------------------------------------------------------------------------------------------*/
+
+
+
+.block_title {
+ font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+ font-size:2.2em;
+ font-weight:normal;
+ padding:0 3%;
+ line-height:100%;
+ font-style:normal;
+ color: #49060d;
+}
+
+.block_text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+  padding: 0 2%
+}
+
+
+h2 {
+ text-align: center;
+ font-size:1.4em;
+ font-weight:normal;
+ padding:0px 0 0px;
+ line-height:100%;
+ font-style:italic;
+}
+
+h3 {
+ text-align: center;
+ font-size:1.2em;
+ font-weight:normal;
+ padding:0px 0 0px;
+ line-height:100%;
+ font-style:italic;
+}
+
+
+
+
+
+
+a {
+ color: #ffffff;
+ text-decoration:none;
+ margin: 2%;
+}
+
+a:hover {
+ color:#1524b3;
+ text-decoration: none;
+}
+
+
+#top {
+	text-align: center;
+ padding:0px 0 0px;
+ line-height:100%;
+ font-style:normal;
+font-size: 1.8em;
+border: 0px solid #1c2aad;
+margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+#buttons {
+	text-align: center;
+ font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+ font-weight:normal;
+ padding:0px 0 0px;
+ line-height:130%;
+ font-style:normal;
+font-size: 1.8em;
+border: 0px solid #1c2aad;
+background: #49060d;
+}
+
+.main {
+ 
+}
+
+
+
+.aside { 
+ 
+}
+
+.footer {
+color: #ffffff;
+  text-align: center;
+ font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+ font-weight:normal;
+ line-height:120%;
+ font-style:normal;
+font-size: 1em;
+border: 0px solid #1c2aad;
+background: #49060d;
+ } 
+
+ img {
+  max-width: 100%; /* Подстраивается под размер любого контейнера */
+  height: auto; /* Пропорции не меняются при изменении размера */
+}
+
+
