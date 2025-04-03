@@ -17,7 +17,7 @@
     
   }
   .aside, .main {
-     width: 96%;
+     width: 100%;
      min-height: 1px;
      
   }
@@ -26,7 +26,7 @@
   @media (max-width: 640px) {
     .aside, .main {
       flex: 0 0 100%;
-      max-width: 94%;
+      max-width: 100%;
       margin: 0 3%;
      }
     
