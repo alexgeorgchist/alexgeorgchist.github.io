@@ -19,7 +19,7 @@
 /*----------------MENU----------------------*/
 nav {
   font-family: "Sofia_Sans_Condensed", sans-serif;
-  font-style: medium;
+  font-style: regular;
   font-weight:normal;
   background-color: #253342;
   color: white;
@@ -77,7 +77,7 @@ ul li a:hover {
 
   ul {
     position: fixed;
-    top: 60px;
+    top: 20px;
     right: -100%;
     background-color: #253342;
     width: 100%;
