@@ -5,4 +5,4 @@ height="32"/>, I'm Alexsander<align="center"> from Kazan Russia</h2>
 
 
 
-<p><a href="http://alexgeorgchist.github.io"> - the address of the church website.</a></p>
+<p><a href="http://alexgeorgchist.github.io">http://alexgeorgchist.github.io</a> - the address of the church website.</p>
