@@ -1,4 +1,12 @@
 
+
+@font-face {
+	font-family: 'PT Sans'; 
+	src: url("fonts\PTSans\PTSans-Bold.ttf"),  
+       url("fonts\PTSans\PTSans-Regular.ttf");
+
+ }
+
  @font-face {
 	font-family: 'Sofia_Sans_Condensed'; 
 	src: url("fonts\Sofia_Sans_Condensed/SofiaSansCondensed-Regular.ttf"),  
