@@ -102,6 +102,7 @@ ul li a:hover {
   .container {
      display: flex;
      flex-wrap: wrap;
+     max-width: 1200px;
   }
   .aside, .main {
      width: 100%;
@@ -120,8 +121,8 @@ ul li a:hover {
     .main {
       flex: 0 0 60%;
       width: 60%;
-      order: 1;  
-      
+      order: 1;
+            
      }
      html, body {
        margin: 0%;
@@ -162,6 +163,11 @@ ul li a:hover {
   font-style: regular;
    font-weight:normal;
   font-size: 1.2em;
+  }
+
+.text_hover:hover{    
+  color: lightskyblue;
+  text-decoration: underline;
 }
 
 a {
@@ -180,22 +186,6 @@ body {
 }
 
 
-#top {
-	
-}
-
-
-
-.main {
- 
-}
-
-
-
-.aside { 
- 
-}
-
 .footer {
 color: #ffffff;
   text-align: center;
@@ -210,8 +200,13 @@ background: #365563;
  } 
 
  img {
-  max-width: 100%; /* Подстраивается под размер любого контейнера */
+  width: 100%; /* Подстраивается под размер любого контейнера */
   height: auto; /* Пропорции не меняются при изменении размера */
+  
+}
+
+.img_hover:hover {
+  border: 3px solid #413f3f; /* Ширина, вид и цвет рамки */  
 }
 
 /*--------button up-------*/
