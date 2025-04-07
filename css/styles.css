@@ -116,7 +116,7 @@ ul li a:hover {
       flex: 0 0 32%;
       max-width: 32%;
       order: 1; 
-      margin-left: 8%;
+      margin-right: 8%;
      }
     .main {
       flex: 0 0 60%;
