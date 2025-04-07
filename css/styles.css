@@ -115,13 +115,13 @@ ul li a:hover {
     .aside {
       flex: 0 0 32%;
       max-width: 32%;
-      order: 2; 
+      order: 1; 
       margin-left: 8%;
      }
     .main {
       flex: 0 0 60%;
       width: 60%;
-      order: 1;
+      order: 2;
             
      }
      html, body {
