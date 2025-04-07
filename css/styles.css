@@ -102,7 +102,7 @@ ul li a:hover {
   .container {
      display: flex;
      flex-wrap: wrap;
-     max-width: 1200px;
+     max-width: 1280px;
   }
   .aside, .main {
      width: 100%;
@@ -126,7 +126,7 @@ ul li a:hover {
      }
      html, body {
        margin: 0%;
-       max-width: 1200px;
+       max-width: 1280px;
        margin: 0 auto;
      }
    }
@@ -142,7 +142,7 @@ ul li a:hover {
 
 .block_title {
  font-family: "PT Sans", sans-serif;
- font: size 1.2em;em;
+ font: size 1.2em;
  padding-left: 6%;
  font-style: regular;
  font-weight:normal;
