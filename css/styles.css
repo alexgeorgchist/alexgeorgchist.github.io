@@ -1,11 +1,31 @@
-
-
 @font-face {
-	font-family: 'PT Sans'; 
-	src: url("fonts\PTSans\PTSans-Bold.ttf"),  
-       url("fonts\PTSans\PTSans-Regular.ttf");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Roboto"),
+       url("fonts/Roboto/Roboto-Regular.ttf");
+}
 
- }
+body {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.monomakh-regular {
+  font-family: "Monomakh", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
  
 /*----------------MENU----------------------*/
@@ -170,6 +190,16 @@ ul li a:hover {
   text-decoration: underline;
 }
 
+.left_letter {
+  float: left; /* Выравнивание по левому краю */
+  margin: 14px 8px 0 0; /* Отступы вокруг буквы */
+  font-family: "Monomakh";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5em;
+  color: #a00;
+}
+
 a {
  color: blue;
  text-decoration:none;
@@ -202,7 +232,11 @@ background: #365563;
  img {
   width: 100%; /* Подстраивается под размер любого контейнера */
   height: auto; /* Пропорции не меняются при изменении размера */
-  
+  border: 3px solid transparent;   
+}
+
+.img_decor {
+  border-radius: 20px;
 }
 
 .img_hover:hover {

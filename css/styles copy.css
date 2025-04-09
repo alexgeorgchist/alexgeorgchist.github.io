@@ -1,11 +1,31 @@
-
-
 @font-face {
-	font-family: 'PT Sans'; 
-	src: url("fonts\PTSans\PTSans-Bold.ttf"),  
-       url("fonts\PTSans\PTSans-Regular.ttf");
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Roboto"),
+       url("fonts/Roboto/Roboto-Regular.ttf");
+}
 
- }
+body {
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.monomakh-regular {
+  font-family: "Monomakh", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
  
 /*----------------MENU----------------------*/
@@ -102,6 +122,7 @@ ul li a:hover {
   .container {
      display: flex;
      flex-wrap: wrap;
+     max-width: 1280px;
   }
   .aside, .main {
      width: 100%;
@@ -112,20 +133,20 @@ ul li a:hover {
  
   @media (min-width: 768px) {
     .aside {
-      flex: 0 0 32%;
-      max-width: 32%;
-      order: 2; 
-      margin-left: 8%;
+      flex: 0 0 25%;
+      max-width: 25%;
+      order: 1; 
+      margin-right: 8%;
      }
     .main {
-      flex: 0 0 60%;
-      width: 60%;
-      order: 1;  
-      
+      flex: 0 0 67%;
+      width: 67%;
+      order: 2;
+            
      }
      html, body {
        margin: 0%;
-       max-width: 1200px;
+       max-width: 1280px;
        margin: 0 auto;
      }
    }
@@ -141,7 +162,7 @@ ul li a:hover {
 
 .block_title {
  font-family: "PT Sans", sans-serif;
- font: size 1.2em;em;
+ font: size 1.2em;
  padding-left: 6%;
  font-style: regular;
  font-weight:normal;
@@ -162,6 +183,21 @@ ul li a:hover {
   font-style: regular;
    font-weight:normal;
   font-size: 1.2em;
+  }
+
+.text_hover:hover{    
+  color: lightskyblue;
+  text-decoration: underline;
+}
+
+.left_letter {
+  float: left; /* Выравнивание по левому краю */
+  margin: 14px 8px 0 0; /* Отступы вокруг буквы */
+  font-family: "Monomakh";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5em;
+  color: #a00;
 }
 
 a {
@@ -180,22 +216,6 @@ body {
 }
 
 
-#top {
-	
-}
-
-
-
-.main {
- 
-}
-
-
-
-.aside { 
- 
-}
-
 .footer {
 color: #ffffff;
   text-align: center;
@@ -210,31 +230,40 @@ background: #365563;
  } 
 
  img {
-  max-width: 100%; /* Подстраивается под размер любого контейнера */
+  width: 100%; /* Подстраивается под размер любого контейнера */
   height: auto; /* Пропорции не меняются при изменении размера */
+  border: 3px solid transparent;   
+}
+
+.img_decor {
+  border-radius: 20px;
+}
+
+.img_hover:hover {
+  border: 3px solid #413f3f; /* Ширина, вид и цвет рамки */  
 }
 
 /*--------button up-------*/
 
 
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: 3px solid #ffffff; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #365563; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 1.2em; /* Increase font size */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 1.5em;
+  color: #fff;
+  background: green;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1000;
 }
-
-#myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+ 
+.back-to-top:hover {
+  background: #365563;
+  color: #fff;
+  text-decoration: none;
 }
 
 
