@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   /* Браузер сначала попробует найти шрифт локально */
@@ -11,11 +11,21 @@ body {
   font-family: "Roboto", "Arial", "Helvetica", sans-serif;
 }
 
+@font-face {
+ font-family: "Vertograd";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Vertograd"),
+       url("../fonts/Vertograd-Regular.woff2"),
+       url("../fonts/Vertograd-Regular.ttf");
+}
 
-.roboto-<uniquifier> {
+
+.roboto-regular {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -25,7 +35,7 @@ body {
  
 /*----------------MENU----------------------*/
 nav {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: regular;
   font-weight:normal;
   background-color: #365563;
@@ -146,7 +156,7 @@ ul li a:hover {
 
 
 .block_title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font: size 1.2em;
   padding-left: 6%;
   font-style: regular;
@@ -157,14 +167,14 @@ ul li a:hover {
 }
 
 .block_subtitle {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size:1.2em;
   font-style: regular;
   font-weight:normal;
 }
 
 .block_text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: regular;
   font-weight:normal;
   font-size: 1.2em;
@@ -178,7 +188,7 @@ ul li a:hover {
 .left_letter {
   float: left; /* Выравнивание по левому краю */
   margin: 14px 8px 0 0; /* Отступы вокруг буквы */
-  font-family: "Monomakh";
+  font-family: "Vertograd";
   font-style: normal;
   font-weight: 400;
   font-size: 5em;
@@ -204,7 +214,7 @@ body {
 .footer {
   color: #ffffff;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-weight:normal;
   line-height:0%;
