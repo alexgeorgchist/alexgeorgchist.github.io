@@ -142,7 +142,7 @@ ul li a:hover {
       flex: 0 0 25%;
       max-width: 25%;
       order: 2; 
-      margin-right: 8%;
+      margin-left: 8%;
      }
     
      html, body {
