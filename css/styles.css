@@ -187,11 +187,11 @@ ul li a:hover {
 
 .left_letter {
   float: left; /* Выравнивание по левому краю */
-  margin: 0px 0px 0 0; /* Отступы вокруг буквы */
+  margin: 0px 4px 0 0; /* Отступы вокруг буквы */
   font-family: "Vertograd";
   font-style: normal;
   font-weight: 400;
-  font-size: 5em;
+  font-size: 3.75em;
   color: #a00;
 }
 
