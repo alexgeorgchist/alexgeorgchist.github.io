@@ -30,7 +30,7 @@ body {
  
 /*----------------MENU----------------------*/
 nav {
-  font-family: "PT Sans";
+  font-family: "Roboto";
   font-style: regular;
   font-weight:normal;
   background-color: #365563;
@@ -162,7 +162,7 @@ ul li a:hover {
 
 
 .block_title {
- font-family: "PT Sans", sans-serif;
+ font-family: "Roboto";
  font: size 1.2em;
  padding-left: 6%;
  font-style: regular;
@@ -173,14 +173,14 @@ ul li a:hover {
 }
 
 .block_subtitle {
- font-family: "PT Sans", sans-serif;
+ font-family: "Roboto";
  font-size:1.2em;
   font-style: regular;
  font-weight:bold;
 }
 
 .block_text {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto";
   font-style: regular;
    font-weight:normal;
   font-size: 1.2em;
