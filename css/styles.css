@@ -7,6 +7,7 @@
        url("../fonts/Roboto-Regular.ttf");
 }
 
+
 body {
   font-family: "Roboto", "Arial", "Helvetica", sans-serif;
 }
@@ -47,7 +48,8 @@ nav {
 }
 
 .logo {
-  font-size: 1.4em;
+  font-size: 1.2em;
+  color: antiquewhite;
 }
 
 ul {
@@ -142,10 +144,9 @@ ul li a:hover {
     order: 2; 
     margin-left: 8%;
   }
-  html, body {
-    
+  html, body {    
     max-width: 1200px;
-    margin: 0 5%;
+    margin: 0 auto;
   }
 }
 
@@ -157,20 +158,22 @@ ul li a:hover {
 
 .block_title {
   font-family: "Roboto", sans-serif;
-  font: size 1.2em;
-  padding-left: 6%;
+  font: size 1.4em;
+  padding-left: 5%;
   font-style: regular;
   font-weight:normal;
-  line-height: 180%;
+  line-height: 160%;
   color: #ffffff;
-  background: #365563;
+  background: #365563; /* Белый текст на темном фоне */
 }
 
 .block_subtitle {
   font-family: "Roboto", sans-serif;
-  font-size:1.2em;
+  font-size:1.3em;
   font-style: regular;
+  padding-left: 2%;
   font-weight:normal;
+  color: #365563;  /* Темный текст на белом фоне фоне */
 }
 
 .block_text {

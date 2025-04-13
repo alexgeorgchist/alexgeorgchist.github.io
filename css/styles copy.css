@@ -1,15 +1,27 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   /* Браузер сначала попробует найти шрифт локально */
   src: local("Roboto"),
-       url("fonts/Roboto/Roboto-Regular.ttf");
+       url("../fonts/Roboto-Regular.ttf");
 }
+
 
 body {
   font-family: "Roboto", "Arial", "Helvetica", sans-serif;
 }
+
+@font-face {
+ font-family: "Vertograd";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Vertograd"),
+       url("../fonts/Vertograd-Regular.woff2"),
+       url("../fonts/Vertograd-Regular.ttf");
+}
+
 
 .roboto-regular {
   font-family: "Roboto", sans-serif;
@@ -20,17 +32,11 @@ body {
     "wdth" 100;
 }
 
-.monomakh-regular {
-  font-family: "Monomakh", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
 
  
 /*----------------MENU----------------------*/
 nav {
-  font-family: "PT Sans";
+  font-family: "Roboto", sans-serif;
   font-style: regular;
   font-weight:normal;
   background-color: #365563;
@@ -42,7 +48,8 @@ nav {
 }
 
 .logo {
-  font-size: 1.4em;
+  font-size: 1.2em;
+  color: antiquewhite;
 }
 
 ul {
@@ -77,16 +84,13 @@ ul li a:hover {
   display: none;
 }
 
+
 @media (max-width: 768px) {
   .checkbtn {
     display: block;
     order: 1;
     margin-right: 3%;    
   }
-
-  
-  
-
   ul {
     position: fixed;
     top: 80px;
@@ -100,15 +104,12 @@ ul li a:hover {
     align-items: center;
     transition: all 0.3s;
   }
-
   ul li {
     margin: 20px 0;
   }
-
   ul li a {
     font-size: 1.4em;
   }
-
   #check:checked ~ ul {
     right: 0;
   }
@@ -119,69 +120,66 @@ ul li a:hover {
   
  /*  --------------adaptiv setka-------------- */
   
-  .container {
-     display: flex;
-     flex-wrap: wrap;
-     max-width: 1280px;
-  }
-  .aside, .main {
-     width: 100%;
-     min-height: 1px;     
-  }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+.aside, .main {
+  width: 100%;
+  min-height: 1px;     
+}
 
  
  
-  @media (min-width: 768px) {
-    .aside {
-      flex: 0 0 25%;
-      max-width: 25%;
-      order: 1; 
-      margin-right: 8%;
-     }
-    .main {
-      flex: 0 0 67%;
-      width: 67%;
-      order: 2;
-            
-     }
-     html, body {
-       margin: 0%;
-       max-width: 1280px;
-       margin: 0 auto;
-     }
-   }
+@media (min-width: 768px) {
+  .main {
+    flex: 0 0 67%;
+    width: 67%;
+    order: 1;
+  }
+  .aside {
+    flex: 0 0 25%;
+    max-width: 25%;
+    order: 2; 
+    margin-left: 8%;
+  }
+  html, body {    
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
 
-   
   
-  
-   
   
 /*---------------------------------------------------------------------------------------------*/
 
 
 
 .block_title {
- font-family: "PT Sans", sans-serif;
- font: size 1.2em;
- padding-left: 6%;
- font-style: regular;
- font-weight:normal;
- line-height: 180%;
- color: #ffffff;
- background: #365563;
+  font-family: "Roboto", sans-serif;
+  font: size 1.4em;
+  padding-left: 5%;
+  font-style: regular;
+  font-weight:normal;
+  line-height: 160%;
+  color: #ffffff;
+  background: #365563; /* Белый текст на темном фоне */
 }
 
 .block_subtitle {
- font-family: "PT Sans", sans-serif;
- font-size:1.2em;
+  font-family: "Roboto", sans-serif;
+  font-size:1.3em;
   font-style: regular;
- font-weight:bold;
+  padding-left: 2%;
+  font-weight:normal;
+  color: #365563;  /* Темный текст на белом фоне фоне */
 }
 
 .block_text {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: regular;
-   font-weight:normal;
+  font-weight:normal;
   font-size: 1.2em;
   }
 
@@ -192,8 +190,8 @@ ul li a:hover {
 
 .left_letter {
   float: left; /* Выравнивание по левому краю */
-  margin: 14px 8px 0 0; /* Отступы вокруг буквы */
-  font-family: "Monomakh";
+  margin: 0px 5px 0 0; /* Отступы вокруг буквы */
+  font-family: "Vertograd";
   font-style: normal;
   font-weight: 400;
   font-size: 5em;
@@ -201,13 +199,13 @@ ul li a:hover {
 }
 
 a {
- color: blue;
- text-decoration:none;
+  color: blue;
+  text-decoration:none;
 }
 
 a:hover {
- color:#518095;
- text-decoration: none;
+  color:#518095;
+  text-decoration: none;
 }
 
 
@@ -217,17 +215,18 @@ body {
 
 
 .footer {
-color: #ffffff;
+  color: #ffffff;
   text-align: center;
- font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
- font-weight:normal;
- line-height:0%;
- font-style:normal;
-font-size: 0.8em;
-border: 0px solid #1c2aad;
-background: #365563;
+  font-weight:normal;
+  line-height:0%;
+  font-style:normal;
+  font-size: 0.8em;
+  border: 0px solid #1c2aad;
+  background: #365563;
  } 
+
 
  img {
   width: 100%; /* Подстраивается под размер любого контейнера */
@@ -235,13 +234,14 @@ background: #365563;
   border: 3px solid transparent;   
 }
 
+.img_hover:hover {
+  border: 3px solid #413f3f; /* Ширина, вид и цвет рамки */  
+}
+
 .img_decor {
   border-radius: 20px;
 }
 
-.img_hover:hover {
-  border: 3px solid #413f3f; /* Ширина, вид и цвет рамки */  
-}
 
 /*--------button up-------*/
 
@@ -251,7 +251,7 @@ background: #365563;
   bottom: 20px;
   right: 20px;
   display: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #fff;
   background: green;
   padding: 10px 10px;
