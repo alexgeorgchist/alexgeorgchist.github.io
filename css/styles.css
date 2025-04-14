@@ -164,10 +164,10 @@ ul li a:hover {
 .block_title {
   font-family: "Roboto", sans-serif;
   font: size 1.4em;
-  padding-left: 5%;
+  padding-left: 3%;
   font-style: regular;
   font-weight:normal;
-  line-height: 160%;
+  line-height: 170%;
   color: #ffffff;
   background: #365563; /* Белый текст на темном фоне */
 }
@@ -200,7 +200,7 @@ ul li a:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 5em;
-  color: #a00;
+  color: #aa0000;
 }
 
 a {
