@@ -200,11 +200,11 @@ ul li a:hover {
 
 a {
   color: blue;
-  text-decoration:none;
+  text-decoration: underline;
 }
 
 a:hover {
-  color:#518095;
+  color: lightblue;
   text-decoration: none;
 }
 
@@ -247,23 +247,18 @@ body {
 
 
 .back-to-top {
+  width: 60px;
+  height: 60px;
+  background-image: url('../img/website/up.png');
+  background-size: cover;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display: none;
-  font-size: 1.2em;
-  color: #fff;
-  background: green;
-  padding: 10px 10px;
-  border-radius: 10px;
-  cursor: pointer;
-  z-index: 1000;
+  opacity: 1.0;
 }
  
 .back-to-top:hover {
-  background: #365563;
-  color: #fff;
-  text-decoration: none;
+opacity: 0.8;
 }
 
 
