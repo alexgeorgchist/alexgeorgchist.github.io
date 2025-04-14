@@ -236,15 +236,15 @@ body {
  img {
   width: 100%; /* Подстраивается под размер любого контейнера */
   height: auto; /* Пропорции не меняются при изменении размера */
-  border: 3px solid transparent;   
+  border: 4px solid transparent;   
 }
 
 .img_hover:hover {
-  border: 3px solid #413f3f; /* Ширина, вид и цвет рамки */  
+  border: 4px solid #413f3f; /* Ширина, вид и цвет рамки */  
 }
 
 .img_decor {
-  border-radius: 20px;
+  border-radius: 12px;
 }
 
 
