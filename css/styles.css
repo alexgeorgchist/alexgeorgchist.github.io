@@ -203,6 +203,17 @@ ul li a:hover {
   color: #aa0000;
 }
 
+.alert { 
+	font-family: "Roboto", sans-serif;
+    font-style: regular;
+    font-weight:normal;
+    font-size: 1.3em; 
+  
+    border-left: 4px solid #365563; /* Параметры линии */ 
+    padding: 10px; /* Расстояние от линии до текста */
+    background: #f0f0f0; /* Цвет фона */
+   }
+
 a {
   color: blue;
   text-decoration: underline;
