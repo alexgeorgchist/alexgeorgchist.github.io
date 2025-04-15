@@ -1,4 +1,4 @@
-@font-face {
+q@font-face {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -207,7 +207,7 @@ ul li a:hover {
 	font-family: "Roboto", sans-serif;
     font-style: regular;
     font-weight:normal;
-    font-size: 1.3em; 
+    font-size: 1.25em; 
   
     border-left: 4px solid #365563; /* Параметры линии */ 
     padding: 10px; /* Расстояние от линии до текста */
