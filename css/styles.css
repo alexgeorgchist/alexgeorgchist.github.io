@@ -211,7 +211,7 @@ ul li a:hover {
   
     border-left: 4px solid #365563; /* Параметры линии */ 
     padding: 10px; /* Расстояние от линии до текста */
-    background: #f0f0f0; /* Цвет фона */
+    background: #eaeeff; /* Цвет фона */
    }
 
 a {
