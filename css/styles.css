@@ -121,15 +121,9 @@ ul li a:hover {
     align-items: center;
     transition: all 0.3s;
   }
-  ul li {
-    margin: 20px 0;
-  }
-  ul li a {
-    font-size: 1.4em;
-  }
-  #check:checked ~ ul {
-    right: 0;
-  }
+  ul li {margin: 20px 0;}
+  ul li a {font-size: 1.4em;}
+  #check:checked ~ ul {right: 0;}
 }
 
 
