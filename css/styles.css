@@ -234,26 +234,6 @@ a:hover {
   text-decoration: none;
 }
 
-
-body { 
-  margin: 0 5%;
-}
-
-
-.footer {
-  color: #ffffff;
-  text-align: center;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-weight:normal;
-  line-height:0%;
-  font-style:normal;
-  font-size: 0.8em;
-  border: 0px solid #1c2aad;
-  background: #770000;
- } 
-
-
  img {
   width: 100%; /* Подстраивается под размер любого контейнера */
   height: auto; /* Пропорции не меняются при изменении размера */
@@ -287,4 +267,15 @@ body {
 opacity: 0.8;
 }
 
-
+.footer {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-weight:normal;
+  line-height:0%;
+  font-style:normal;
+  font-size: 0.8em;
+  border: 0px solid #1c2aad;
+  background: #770000;
+ } 
