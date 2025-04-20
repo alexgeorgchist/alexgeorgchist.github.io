@@ -4,7 +4,8 @@ q@font-face {
   font-weight: 400;
   /* Браузер сначала попробует найти шрифт локально */
   src: local("PT Sans"),
-       url("../fonts/PTSans-Regular.ttf");
+       url("../fonts/PTSans-Regular.ttf"),
+          ("../fonts/PTSans-Bold.ttf");
 }
 
 @font-face {
@@ -44,12 +45,12 @@ q@font-face {
 
 
 body {
-  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
 }
  
 /*----------------MENU----------------------*/
 nav {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: regular;
   font-weight:normal;
   background-color: #770000;
@@ -176,7 +177,7 @@ ul li a:hover {
 
 
 .block_title {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font: size 1.4em;
   padding-left: 3%;
   font-style: regular;
@@ -187,16 +188,16 @@ ul li a:hover {
 }
 
 .block_subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size:1.4em;
-  font-style: regular;
+  font-style: bold;
   padding-left: 2%;
-  font-weight:normal;
+  font-weight:700;
   color: #770000;  /* Темный текст на белом фоне фоне */
 }
 
 .block_text {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: regular;
   font-weight:normal;
   font-size: 1.25em; 
@@ -218,7 +219,7 @@ ul li a:hover {
 }
 
 .alert { 
-	font-family: "Roboto", sans-serif;
+	font-family: "PT Sans", sans-serif;
     font-style: regular;
     font-weight:normal;
     font-size: 1.25em; 
@@ -247,7 +248,7 @@ body {
 .footer {
   color: #ffffff;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-weight:normal;
   line-height:0%;
