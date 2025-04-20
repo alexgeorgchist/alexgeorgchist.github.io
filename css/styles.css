@@ -1,10 +1,10 @@
 q@font-face {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   /* Браузер сначала попробует найти шрифт локально */
-  src: local("Roboto"),
-       url("../fonts/Roboto-Regular.ttf");
+  src: local("PT Sans"),
+       url("../fonts/PTSans-Regular.ttf");
 }
 
 @font-face {
@@ -18,14 +18,30 @@ q@font-face {
 }
 
 
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 
 body {
   font-family: "Roboto", "Arial", "Helvetica", sans-serif;
