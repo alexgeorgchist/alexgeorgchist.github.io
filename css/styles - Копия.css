@@ -1,0 +1,441 @@
+/*------------------------------------------------------
+ШРИФТЫ
+------------------------------------------------------*/
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("PT Sans"),
+       url("../fonts/PTSans-Regular.ttf"),
+          ("../fonts/PTSans-Bold.ttf");
+}
+
+@font-face {
+ font-family: "Vertograd";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Vertograd"),
+       url("../fonts/Vertograd-Regular.woff2"),
+       url("../fonts/Vertograd-Regular.ttf");
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+html, body {
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/*------------------------------------------------------
+МЕНЮ ШАПКИ
+-------------------------------------------------------*/
+
+nav {
+  font-family: "PT Sans", sans-serif;
+  font-style: regular;
+  font-weight:normal;
+  background-color: #634832;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.4em;
+  color: white;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: lightblue;
+  font-size: 1.2em;
+}
+
+.checkbtn {
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+
+@media (max-width: 992px) {
+  .container {margin: 0 12px;}
+  #siteAds {display: none;}
+  .checkbtn {
+    display: block;
+    order: 1;
+    margin-right: 3%;    
+  }
+  ul {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-color: #634842;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  ul li {margin: 20px 0;}
+  ul li a {font-size: 1.4em;}
+  #check:checked ~ ul {right: 0;}
+}
+
+
+
+
+
+
+
+ /*-------------------------------------------------------
+ СТИЛИ ТЕКСТА
+ -------------------------------------------------------*/
+
+header {
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.logotip img {  
+  max-height: 100px; 
+  padding-left: 20px;  
+ }
+
+ .titul {  
+  margin: 0px 5px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6em;
+  color: #634832; 
+  width: 100%;
+
+}
+
+ .block_title {
+  font-family: "PT Sans", sans-serif;
+  font: size 1.4em;
+  padding-left: 3%;
+  font-style: regular;
+  font-weight:normal;
+  line-height: 170%;
+  color: #ffffff;
+  background: #634832; /* Белый текст на темном фоне */
+}
+
+.block_subtitle {
+  font-family: "PT Sans", sans-serif;
+  font-size:1.4em;
+  font-style: bold;
+  padding-left: 2%;
+  font-weight:700;
+  color: #634832;  /* Темный текст на белом фоне фоне */ 
+}
+
+.block_text {
+  font-family: "PT Sans", sans-serif;
+  font-style: regular;
+  font-weight:normal;
+  font-size: 1.25em; 
+  }.block_text {
+  font-family: "PT Sans", sans-serif;
+  font-style: regular;
+  font-weight:normal;
+  font-size: 1.25em; 
+  }
+
+  .text_hover:hover{    
+    color: #aa0000;
+    text-decoration: underline;
+  }
+  
+  .left_letter {
+    float: left; /* Выравнивание по левому краю */
+    margin: 0px 5px 0 0; /* Отступы вокруг буквы */
+    font-family: "Vertograd";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    color: #aa0000;
+  }
+  
+  .alert { 
+    font-family: "PT Sans", sans-serif;
+      font-style: regular;
+      font-weight:normal;
+      font-size: 1.25em; 
+    
+      border-left: 4px solid #a00; /* Параметры линии */ 
+      padding: 10px; /* Расстояние от линии до текста */
+      background: #f5f5f5; /* Цвет фона */
+     }
+
+
+
+
+
+a {
+  color: #38220f;
+  text-decoration: none;
+}
+
+a:hover {  
+ color: #634832;	
+  text-decoration: underline;  
+}
+
+ img {
+  width: 100%; /* Подстраивается под размер любого контейнера */
+  height: auto; /* Пропорции не меняются при изменении размера */
+  border: 4px solid transparent;   
+}
+
+.img_hover:hover {
+  border: 4px solid #413f3f; /* Ширина, вид и цвет рамки */  
+}
+
+.img_decor {
+  border-radius: 12px;
+}
+
+
+/*--------button up-------*/
+
+
+.back-to-top {
+  width: 60px;
+  height: 60px;
+  background-image: url('../img/website/up.png');
+  background-size: cover;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 1.0;
+}
+ 
+.back-to-top:hover {
+opacity: 0.8;
+}
+
+
+
+/*--------------------------------------------------
+FOOTER
+----------------------------------------------------*/
+
+
+.footer {
+	padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;	
+  background-color: #ece0d1;
+  color: black;
+  font-size: 1em;  
+}
+.footer * { 
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+.primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+  align-items: stretch;
+  padding: 0em 1em; 
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+  text-align: left;
+}
+
+.menu a {
+  color: black;
+  font-size: 1em;
+  line-height: 0em;/* Расстояние пробелапо вертикали */
+}
+.menu a:hover {
+  color: #634832;
+  text-decoration: underline;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: #38220f;
+  font-size: 1.1em;  
+  padding: 1em 0;
+}
+
+.about p {
+  text-align: justify;
+  line-height: 2em;/* Расстояние пробелапо вертикали */
+  margin: 0.7em 0;
+}
+div.touch {
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+}
+.touch i {
+  font-size: 2em;
+  color: #38220f;
+}
+.touch i:hover {
+  color: #634832;
+}
+.pic a {
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.2em;/* Расстояние пробелапо вертикали */
+}
+.pic a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.secondary {
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+   text-align: center;
+   margin: 0 auto; 
+}
+
+.secondary div {
+  padding: 1em 0;
+  width: 100%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #634832;
+}
+.copyright p {
+  font-size: 0.9em;
+  color: white;
+  text-align: center;
+}
+/*-------------------------------------------------
+Доплнения для корректного мобила
+---------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .primary {
+    grid-template-columns: 1fr;
+  }
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.2em;
+  min-height: 12em;
+  text-align: center;
+}
+.menu a {
+  color: black;
+  font-size: 1.4em;
+  line-height: 0em;/* Расстояние пробелапо вертикали */
+}
+.menu a:hover {
+  color: #2a8ded;
+  text-decoration: underline;
+}
+h3{
+  width: 100%;  
+  color: #432d2d;
+  font-size: 1.5em;  
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+    text-align: center; 
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2.2em;/* Расстояние пробелапо вертикали */  
+    font-size: 1.1em;
+  }
+div.touch {
+  display: flex;
+  flex-direction: column; 
+}
+.touch i {
+  font-size: 1.5em;
+  color: #38220f;
+}
+.touch i:hover {
+  color: #634832;
+}
+.pic a {
+  color: black;
+  font-size: 1.3em;
+  line-height: 1em;/* Расстояние пробелапо вертикали */
+}
+.pic a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.copyright p {
+  font-size: 1.1em;
+  text-align: center;
+}
+}
