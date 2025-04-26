@@ -106,7 +106,7 @@ ul li a:hover {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 990px) {
   .container {margin: 0 12px;}
   #siteAds {display: none;}
   .checkbtn {
@@ -348,7 +348,7 @@ a{
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
 .second_block {
 display: grid;
 grid-template-columns: 2fr 1fr 1.7fr 1.2fr;
