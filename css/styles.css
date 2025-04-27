@@ -61,7 +61,7 @@ nav {
   font-family: "PT Sans", sans-serif;
   font-style: regular;
   font-weight:normal;
-  background-color: #fff;
+  background-color: #faf5f5;
   border-top: 1px solid #365563;
   border-bottom: 1px solid #365563;
   justify-content: space-between;
@@ -108,7 +108,7 @@ ul li a:hover {font-weight: 700;}
 @media (max-width: 990px) {
   .container {margin: 0 12px;}
   #siteAds {display: none;}
-  nav {background-color: #faf5f5;}
+  nav {background-color: #fff;}
   .checkbtn {
     display: flex;    
     align-items: center;
