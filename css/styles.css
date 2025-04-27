@@ -113,7 +113,7 @@ ul li a:hover {font-weight: 700;}
     display: flex;    
     align-items: center;
     order: 1;
-    margin-right: 3%;    
+    margin-right: 1%;    
   }
   ul {
     position: fixed;
@@ -183,7 +183,7 @@ a:hover {
 
  .block_title {
   font-family: "PT Sans", sans-serif;
-  font-size:1.8em;
+  font-size:1.7em;
   font-style: regular;
   font-weight:400;
   
