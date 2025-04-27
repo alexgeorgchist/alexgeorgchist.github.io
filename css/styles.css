@@ -232,7 +232,7 @@ a:hover {
 .back-to-top {
   width: 60px;
   height: 60px;
-  background-image: url('../img/logo/up.png');
+  background-image: url('../img/logo/up_shevron.png');
   background-size: cover;
   position: fixed;
   bottom: 20px;
