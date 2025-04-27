@@ -108,7 +108,7 @@ ul li a:hover {font-weight: 700;}
 @media (max-width: 990px) {
   .container {margin: 0 12px;}
   #siteAds {display: none;}
- 
+  nav {background-color: #faf5f5;}
   .checkbtn {
     display: flex;    
     align-items: center;
