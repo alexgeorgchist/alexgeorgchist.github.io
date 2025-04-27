@@ -230,14 +230,14 @@ a:hover {
 /*--------button up-------*/
 
 .back-to-top {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   background-image: url('../img/logo/up_shevron.png');
   background-size: cover;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 1.0;
+  opacity: 0.8;
 }
  
 .back-to-top:hover {opacity: 0.8;}
