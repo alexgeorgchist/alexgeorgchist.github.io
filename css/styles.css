@@ -159,12 +159,12 @@ header {
 }
 
 a {
-  color: #38220f;
-  text-decoration: none;
+  color: blue;
+  text-decoration: underline;
 }
 
 a:hover {  
- color: #634832;	
+ color: lightblue	
   text-decoration: underline;  
 }
 
