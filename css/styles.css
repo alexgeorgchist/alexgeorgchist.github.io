@@ -177,6 +177,9 @@ a:hover {
 }
 .img_decor {border-radius: 12px;}
 
+.raspisanie {justify-items: center;}
+.small_raspisanie {width: 400px;}
+
 /*-------------------------------------------------------
  СТИЛИ ТЕКСТА
  -------------------------------------------------------*/
