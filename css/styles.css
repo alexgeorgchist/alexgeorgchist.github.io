@@ -71,7 +71,7 @@ nav {
 
 .logo {
   font-size: 1.4em;
-  color: #5d001a;
+  color: #365563;
 }
 
 ul {
@@ -108,7 +108,7 @@ ul li a:hover {font-weight: 700;}
 @media (max-width: 990px) {
   .container {margin: 0 12px;}
   #siteAds {display: none;}
- 
+  nav {background-color: #fff;}
   .checkbtn {
     display: flex;    
     align-items: center;
@@ -233,14 +233,14 @@ a:hover {
 /*--------button up-------*/
 
 .back-to-top {
-  width: 60px;
-  height: 60px;
-  background-image: url('../img/logo/up.png');
+  width: 55px;
+  height: 55px;
+  background-image: url('../img/logo/up_shevron.png');
   background-size: cover;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 1.0;
+  opacity: 0.8;
 }
  
 .back-to-top:hover {opacity: 0.8;}
