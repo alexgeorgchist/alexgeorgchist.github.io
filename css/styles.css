@@ -70,7 +70,7 @@ nav {
 }
 
 .logo {
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #365563;
 }
 
@@ -85,14 +85,14 @@ ul li {
 }
 ul li a {
   color: #1f2833;
-  font-size: 1.2em;
+  font-size: 1.15em;
   text-decoration: none;
   transition: color 0.3s;
 }
 ul li a:hover {font-weight: 700;}
 
 .checkbtn {
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #5d001a;
   cursor: pointer;
   display: none;
