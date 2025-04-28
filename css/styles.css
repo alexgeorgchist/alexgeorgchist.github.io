@@ -215,7 +215,7 @@ a:hover {
   font-size: 4em;
   color: #a00;
 }
-.alert { 
+.alert {   
   font-family: "PT Sans", sans-serif;
   font-style: italic;
   font-weight:normal;
@@ -270,7 +270,7 @@ FOOTER
 
 #footer{
   font-size:1em;  
-  max-width:1200px;
+  max-width:1400px;
   margin:0 auto;
   font-family: PT Sans;
   background-color: #faf5f5;
