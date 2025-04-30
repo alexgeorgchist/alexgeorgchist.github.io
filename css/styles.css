@@ -288,6 +288,7 @@ FOOTER
 h2 {
   color: #fff;
   text-align: left;  
+  font-size: 1.1em;
 }
 
   .footer-about {
@@ -331,12 +332,6 @@ h2 {
     justify-content: center;
     gap: 3%;
 }
-
-
-
-    
-
-
 
 .copy-right-sec{
   padding: 0.7em;
