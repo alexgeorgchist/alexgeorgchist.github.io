@@ -355,7 +355,7 @@ a{text-decoration:none;}
 .first_block {grid-template-columns: 1fr;}
 .footer-about {display: none;}
 .footerlogo {display: none;}
-.links {padding-bottom: 1em;}
+.links {padding: 0 0 1em 0;}
 .links a{  
   font-size: 1.2em;
   margin: 0.25em 0; /* расстояние между строками меню footer*/   
