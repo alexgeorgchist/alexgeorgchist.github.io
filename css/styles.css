@@ -104,19 +104,9 @@ ul li a:hover {font-weight: 700;}
 header {
   display: flex; 
   flex-flow: row nowrap;
-  justify-content: flex-start;
   justify-content: center;  
 }
-header img {width: 50%;}
- .titul {  
-  margin: 0px 5px;
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.8em;
-  color: #634832; 
-  width: 100%;
-}
+header img {width: 40%;}
 
 a {
   color: blue;
