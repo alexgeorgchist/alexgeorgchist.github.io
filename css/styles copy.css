@@ -1,0 +1,350 @@
+/*------------------------------------------------------
+ШРИФТЫ
+------------------------------------------------------*/
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("PT Sans"),
+       url("../fonts/PTSans-Regular.ttf"),
+          ("../fonts/PTSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Vertograd";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Vertograd"),
+       url("../fonts/Vertograd-Regular.woff2"),
+       url("../fonts/Vertograd-Regular.ttf");
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+html, body {
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 16px; 
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/*------------------------------------------------------
+МЕНЮ ШАПКИ
+-------------------------------------------------------*/
+
+nav {
+  display: flex;	
+  font-family: "PT Sans", sans-serif;
+  font-style: regular;
+  font-weight:normal;
+  background-color: #faf5f5;
+  border-top: 1px solid #1f2833;
+  border-bottom: 1px solid #1f2833;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.3em;
+  color: #365563;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  margin-right: 20px;
+}
+ul li a {
+  color: #1f2833;
+  font-size: 1em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+ul li a:hover {font-weight: 700;}
+
+.checkbtn {display: none;}
+.checkbtn img {
+  height: 44px; 
+  width: 44px;
+}
+
+#check {display: none;}
+
+/*----------------------------------------------*/
+header {
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: center;  
+}
+header img {width: 40%;}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {  
+ color: blue;	
+  text-decoration: underline;  
+}
+
+ img {
+  width: 100%; /* Подстраивается под размер любого контейнера */
+  height: auto; /* Пропорции не меняются при изменении размера */
+  border: 4px solid transparent;   
+}
+
+.img_hover:hover {
+  border: 4px solid #38220f; /* Ширина, вид и цвет рамки */  
+}
+.img_decor {border-radius: 12px;}
+
+.raspisanie {justify-items: center;}
+.small_raspisanie {width: 400px;}
+
+/*----Изменения для молильной версии------------*/
+
+@media (max-width: 768px) {
+  header img {width: 90%;}
+  .container {margin: 0 12px;}
+  #siteAds {display: none;}
+  nav {background-color: #fff;}
+  .checkbtn {
+    display: flex;    
+    order: 1;
+    margin-right: 1%;    
+  }
+  ul {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-color: #1f2833;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;       
+  }
+  ul li {margin: 20px 0;}
+  ul li a {
+    color: #fff;
+    font-size: 1.2em;  
+  }
+  ul li a:hover {color: antiquewhite;}
+  #check:checked ~ ul {right: 0;}
+}
+
+/*-------------------------------------------------------
+ СТИЛИ ТЕКСТА
+ -------------------------------------------------------*/
+
+ .block_title {
+  font-family: "PT Sans", sans-serif;
+  font-size:1.7em;
+  font-style: regular;
+  font-weight:400;
+  
+  color: #5d001a;/* Темный текст на белом фоне фоне */ 
+}
+.block_subtitle {
+  font-family: "PT Sans", sans-serif;
+  font-size:1.4em;
+  font-style: bold;
+  font-weight:700;
+  color: #5d001a;  /* Темный текст на белом фоне фоне */ 
+}
+.block_text {
+  font-family: "PT Sans", sans-serif;
+  font-style: regular;
+  font-weight:normal;
+  font-size: 1.25em; 
+}
+ 
+.text_hover:hover{    
+  color: #aa0000;
+  text-decoration: underline;
+} 
+.left_letter {
+  float: left; /* Выравнивание по левому краю */
+  margin: 0px 5px 0 0; /* Отступы вокруг буквы */
+  font-family: "Vertograd";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4em;
+  color: #a00;
+}
+.alert {   
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  font-weight:normal;
+  font-size: 1.25em;     
+  border-left: 4px solid #a00; /* Параметры линии */ 
+  padding: 10px; /* Расстояние от линии до текста */
+  background: #f5f5f5; /* Цвет фона */
+}
+
+table {
+  width: 100%;
+  border: 2px solid #1f2833;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;  
+}
+caption {color: #5d001a;}
+
+td {
+  text-align: left;
+	padding: 10px;
+	border: 1px solid #1f2833;
+}
+ th {
+  text-align: center;
+  padding: 10px;
+	border: 2px solid #1f2833;
+  background-color: #faf5f5;
+ }
+
+/*------------------------------------------------
+BUTTON UP
+--------------------------------------------------*/
+
+.back-to-top {
+  width: 55px;
+  height: 55px;
+  background-image: url('../img/logo/up_shevron.png');
+  background-size: cover;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.8;
+}
+ 
+.back-to-top:hover {opacity: 0.8;}
+
+/*--------------------------------------------------
+FOOTER
+----------------------------------------------------*/
+
+#footer{
+  font-size:1em;  
+  color: #c5c5c5;
+  max-width:1400px;
+  font-family: PT Sans;
+  background-color: #1c1c1c;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.first_block {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  }
+
+h2 {
+  color: #a89f91;
+  text-align: left;  
+  font-size: 1.2em;
+}
+
+.footer-about {
+  display:flex; 
+  flex-direction: column;
+  padding: 0 5%;
+  text-align: justify;
+}
+  
+.links {
+  display:flex; 
+  flex-direction: column;
+  padding: 0 20%;   
+}
+  
+.links a{
+  font-size: 1em;
+  margin: 0.2em 0;
+  color: #c5c5c5;
+}
+
+.social-links img{
+  height: 40px; 
+  width: 40px;
+}
+.footerlogo {
+ display: flex;
+ flex-direction: column;
+}
+.footerlogo img {
+  width: auto;
+  hight: 100%;
+  margin: 5% auto; 
+}
+.social-icons{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3%;
+}
+
+.copy-right-sec{
+  padding: 0.7em;
+  background: #541313;
+  color: #f8f8f8;
+  text-align: center;
+}
+.copy-right-sec a{
+ color: #a89f91;
+ font-weight: 900;
+}
+a{text-decoration:none;}
+
+/* Изменения для мобильной верстки */
+@media (max-width: 768px) {
+.first_block {grid-template-columns: 1fr;}
+.footer-about {display: none;}
+.footerlogo {display: none;}
+.links {padding: 0 0 1em 0;}
+.links a{  
+  font-size: 1.2em;
+  margin: 0.25em 0; /* расстояние между строками меню footer*/   
+  text-align: left;
+  color: #fff;
+}
+.social-icons {
+  padding: 1em 0 4em 0;
+  border-top: 1px solid #a89f91;
+}
+}	
+
+/* footer section end */
