@@ -118,20 +118,21 @@ ul li a:hover {font-weight: 700;}
 /*--------------------------------------------------
 HEADER
 --------------------------------------------------*/
+
 .logo_head {
-  background: center / cover url('../img/logo/logo_big.png');
+  background: center / cover url('../img/logo/up-hram.png');
   display: flex;
-  
-  height: 90px;
-  align-items: start;
+  width: 100%;
+  height: auto;
+  align-items: center;
   justify-content: center;
   font:
-    normal calc(1.3em + 2 * (100vw - 120px) / 100) 'Monomakh';
+    normal calc(2em + 2 * (100vw - 120px) / 100) 'Monomakh';
   color: #faf5f5;
-  text-shadow: #541313 5px 5px 0.2rem;
-  padding-top: 40%;
-  
+  text-shadow: #541313 5px 5px 0.1rem;
+  padding-top: 35%;  
 }
+
 
 a {
   color: blue;
