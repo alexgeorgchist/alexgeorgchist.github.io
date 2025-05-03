@@ -213,7 +213,7 @@ a:hover {
   font-family: "PT Sans", sans-serif;
   font-style: regular;
   font-weight:normal;
-  font-size: 1.25em; 
+  font-size: 1.3em; 
 }
  
 .text_hover:hover{    
@@ -233,7 +233,7 @@ a:hover {
   font-family: "PT Sans", sans-serif;
   font-style: italic;
   font-weight:normal;
-  font-size: 1.25em;     
+  font-size: 1.3em;     
   border-left: 4px solid #a00; /* Параметры линии */ 
   padding: 10px; /* Расстояние от линии до текста */
   background: #f5f5f5; /* Цвет фона */
