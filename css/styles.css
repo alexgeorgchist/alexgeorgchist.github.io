@@ -1,3 +1,10 @@
+/*-----------------------------------------*/
+html, body {
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 16px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /*------------------------------------------------------
 ШРИФТЫ
 ------------------------------------------------------*/
@@ -59,14 +66,6 @@
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-style: italic;
-}
-
-/*-----------------------------------------*/
-html, body {
-  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
-  font-size: 16px; 
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 /*------------------------------------------------------
@@ -290,8 +289,7 @@ FOOTER
 
 #footer{
   font-size:1em;  
-  color: #c5c5c5;
-  max-width:1200px;
+  color: #c5c5c5;  
   font-family: PT Sans;
   background-color: #1c1c1c;
   justify-content: center;
