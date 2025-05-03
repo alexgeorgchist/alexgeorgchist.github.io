@@ -78,7 +78,7 @@ nav {
   font-family: "PT Sans", sans-serif;
   font-style: regular;
   font-weight:normal;
-  background-color: #faf5f5;
+  background-color: #c5c5c5;
   border-top: 1px solid #1f2833;
   border-bottom: 1px solid #1f2833;
   justify-content: space-between;
@@ -88,7 +88,7 @@ nav {
 
 .logo_nav {
   font-size: 1.3em;
-  color: #365563;
+  color: #5d001a;
 }
 
 ul {
@@ -101,7 +101,7 @@ ul li {
   margin-right: 20px;
 }
 ul li a {
-  color: #1f2833;
+  color: #1c1c1c;
   font-size: 1em;
   text-decoration: none;
   transition: color 0.3s;
@@ -141,10 +141,10 @@ a {
   text-decoration: none;
 }
 
-/*a:hover {  
- color: blue;	
+a:hover {  
+ 
   text-decoration: underline;  
-}*/
+}
 
  img {
   width: 100%; /* Подстраивается под размер любого контейнера */
@@ -337,8 +337,7 @@ h2 {
  flex-direction: column;
 }
 .footerlogo img {
-  width: auto;
-  hight: 100%;
+  width: auto;  
   margin: 5% auto; 
 }
 .social-icons{ 
@@ -349,7 +348,7 @@ h2 {
 }
 
 .copy-right-sec{
-  padding: 0.7em;
+  padding: 0.5em;
   background: #541313;
   color: #f8f8f8;
   text-align: center;
@@ -370,7 +369,7 @@ a{text-decoration:none;}
   font-size: 1.2em;
   margin: 0.25em 0; /* расстояние между строками меню footer*/   
   text-align: left;
-  color: #fff;
+  color: #c5c5c5;
 }
 .social-icons {
   padding: 1em 0 4em 0;
