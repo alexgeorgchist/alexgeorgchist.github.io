@@ -161,8 +161,7 @@ a:hover {
 
 /*----Изменения для молильной версии------------*/
 
-@media (max-width: 768px) {
-  header img {width: 90%;}
+@media (max-width: 768px) {  
   .container {margin: 0 12px;}
   #siteAds {display: none;}
   nav {background-color: #fff;}
