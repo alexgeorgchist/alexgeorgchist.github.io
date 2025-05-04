@@ -120,7 +120,7 @@ HEADER
 --------------------------------------------------*/
 
 .logo_head {
-  background: center / cover url('../img/logo/up-hram.png');
+  background: center / cover url('../img/website/headers/up-hram.png');
   display: flex;
   width: 100%;
   height: auto;
@@ -130,7 +130,7 @@ HEADER
     normal calc(1.4em + 2 * (100vw - 120px) / 100) 'Monomakh';
   color: #faf5f5;
   text-shadow: #541313 5px 5px 0.1rem;
-  padding-top: 35%;  
+  padding-top: 27%;  
 }
 
 
@@ -156,7 +156,7 @@ a:hover {
 .img_decor {border-radius: 12px;}
 
 .raspisanie {justify-items: center;}
-.small_raspisanie {width: 400px;}
+
 
 /*----Изменения для молильной версии------------*/
 
