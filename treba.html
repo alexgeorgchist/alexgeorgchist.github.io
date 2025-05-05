@@ -12,58 +12,7 @@
     <script src="script/button-up.js"></script>  
   </head> 
   
-  
- <style>
-  body { 
-   display: grid;
-   grid-template-areas: 
-    "header header"
-    "nav nav"
-    "article ads"
-    "footer footer";
-   grid-template-rows: auto 70px 1fr 1fr; 
-   grid-template-columns: 1fr 25%;
-   grid-row-gap: 10px;
-   grid-column-gap: 10px;
-   height: 100vh;
-   margin: 0;
-  } 
-  /* Макет для маленьких устройств/экранов */
-  @media all and (max-width: 768px) {
-  body { 
-    grid-template-areas: 
-      "header"
-      "nav"
-      "article"
-      "ads"
-      "footer";
-    grid-template-rows: auto 50px 1fr 1fr 1fr; 
-    grid-template-columns: 1fr;
-  }
-}
-  article, nav, aside {
-   padding: 1em;  
-  }
-  #pageHeader {
-   grid-area: header;
-  }
-  #pageFooter {
-   grid-area: footer;
-  }
-  #mainArticle { 
-   grid-area: article; 
-  }
-  #mainNav { 
-   grid-area: nav; 
-  }
-  #siteAds { 
-   grid-area: ads; 
-  }
- </style>
-
-
-
- <body>
+<body>
   <header id="pageHeader"><!--Шапка-->    
     <img src="img\website\headers\small-hram.png" alt="Фото малый храм">
   </header>
