@@ -188,7 +188,7 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
     align-items: center;
     transition: all 0.5s;       
   }
-  ul li {margin: 20px 0;}
+  ul li {margin: 15px 0;}
   ul li a {color: antiquewhite;font-size: 1.6em;}
   ul li a:hover {color: white;}  
   #check:checked ~ ul {right: 0;}
