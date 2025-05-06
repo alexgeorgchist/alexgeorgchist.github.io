@@ -150,7 +150,7 @@ ul {
   margin: 0;
 }
 ul li {margin-right: 20px;}
-ul li a {color: #1c1c1c;font-size: 1em;}
+ul li a {color: #1c1c1c;font-size: 1.4em;}
 ul li a:hover {font-weight: 700;color: #5d001a;}
 .checkbtn {display: none;}
 .checkbtn img {height: 30px;width: 30px;} /* Размер кнопки меню */
