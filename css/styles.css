@@ -311,6 +311,7 @@ h2 {
   margin: 0.2em 0;
   color: #c5c5c5;
 }
+.links a:hover {color: #a89f91;}
 .social-links img{
   height: 40px; 
   width: 40px;
