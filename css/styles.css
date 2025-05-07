@@ -200,7 +200,7 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
 
  .block_title {
   box-sizing: border-box;
-  margin:  0 auto;
+  margin:  0 auto 1em auto;
   text-wrap: balance; /* Равномерно распределяет текст */
   max-width: 50rem;;
   text-align: center;
