@@ -307,23 +307,25 @@ td {
 /*--------------------------------------------------
                 ПОДВАЛ FOOTER
 ----------------------------------------------------*/
+
 #footer{
   font-size:1em;  
   color: #c5c5c5;  
   font-family: PT Sans;
   background-color: #1c1c1c;
   justify-content: center;
-  padding: 0 10%;
+  padding: 0 7%;
 }
 .first_block {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr;
+  grid-template-columns: 1fr 0.6fr 1fr;
   }
 h2 {
   color: #a89f91;
   text-align: left;  
   font-size: 1.2em;
 }
+.footer-roundlogo {display: none;}
 .footer-about {
   display:flex; 
   flex-direction: column;
@@ -375,10 +377,17 @@ a{text-decoration:none;}
       Изменения для мобильной верстки
 ----------------------------------------------*/      
 @media (max-width: 768px) {
+
 .first_block {grid-template-columns: 1fr;}
 .footer-about {display: none;}
 .footerlogo {display: none;}
-.links {padding: 0 0 1em 0;}
+.footer-roundlogo {
+  display: flex;
+  margin: 1em auto;
+  width: 40%;
+  clip-path: circle(50%);
+}
+.links {padding: 0 0 1em 10px;}
 .links a{  
   font-size: 1.2em;
   margin: 0.25em 0; /* расстояние между строками меню footer*/   
