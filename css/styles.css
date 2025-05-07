@@ -150,8 +150,13 @@ ul {
   margin: 0;
 }
 ul li {margin-right: 20px;}
-ul li a {color: #1c1c1c;font-size: 1.4rem;}
-ul li a:hover {font-weight: 700;color: #5d001a;}
+ul li a {
+  color: #1c1c1c;
+  font-size: 1.4rem;
+  &:hover {
+    font-weight: 700;
+    color: #5d001a;}
+}
 .checkbtn {display: none;}
 .checkbtn img {height: 30px;width: 30px;} /* Размер кнопки меню */
 #check {display: none;}
@@ -189,8 +194,11 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
     transition: all 0.5s;       
   }
   ul li {margin: 1em 0;}
-  ul li a {color: antiquewhite;font-size: 1.6em;}
-  ul li a:hover {color: white;}  
+  ul li a {
+    color: antiquewhite;
+    font-size: 1.6em;
+    &:hover {color: white;}
+  }  
   #check:checked ~ ul {right: 0;}
 }
 
@@ -211,11 +219,13 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
   color: #5d001a;/* Темный текст на белом фоне фоне */ 
 }
 .block_subtitle {
+  box-sizing: border-box;
+  text-wrap: balance; /* Равномерно распределяет текст */
   font-family: "PT Sans", sans-serif;
-  font-size:1.4em;
+  font-size:1.3em;
   font-style: normal;
-  font-weight:400;
-  color: #5d001a;  /* Темный текст на белом фоне фоне */ 
+  font-weight:700;  
+  text-align: center;
 }
 .block_text {
   font-family: "PT Sans", sans-serif;
@@ -223,8 +233,10 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
   font-weight:normal;
   font-size: 1.3em; 
 }
-.text_hover{color: blue;} 
-.text_hover:hover{text-decoration: underline;} 
+.text_hover{
+  color: blue;
+  &:hover {text-decoration: underline;}
+} 
 .left_letter {
   float: left; /* Выравнивание по левому краю */
   margin: 0px 5px 0 0; /* Отступы вокруг буквы */
@@ -315,11 +327,12 @@ h2 {
   font-size: 1em;
   margin: 0.2em 0;
   color: #c5c5c5;
+  &:hover {color: #a89f91;}
 }
-.links a:hover {color: #a89f91;}
+
 .social-links img{
   height: 40px; 
-  width: 40px;
+  width: 40px;  
 }
 .footerlogo {
  display: flex;
