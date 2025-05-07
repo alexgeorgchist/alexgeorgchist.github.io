@@ -104,7 +104,7 @@ html, body {
                          HEADER
 ---------------------------------------------------------*/
 
-.logo_head {
+.logo_head {  
   background: center / cover url('../img/website/headers/up-hram.png');
   display: flex;
   width: 100%;
@@ -150,7 +150,7 @@ ul {
   margin: 0;
 }
 ul li {margin-right: 20px;}
-ul li a {color: #1c1c1c;font-size: 1.4em;}
+ul li a {color: #1c1c1c;font-size: 1.4rem;}
 ul li a:hover {font-weight: 700;color: #5d001a;}
 .checkbtn {display: none;}
 .checkbtn img {height: 30px;width: 30px;} /* Размер кнопки меню */
@@ -177,7 +177,7 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
   }
   ul {
     position: fixed;
-    top: 80px;
+    top: 6em;
     right: -100%;
     background-color: #1f2833;
     width: 100%;
@@ -188,7 +188,7 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
     align-items: center;
     transition: all 0.5s;       
   }
-  ul li {margin: 15px 0;}
+  ul li {margin: 1em 0;}
   ul li a {color: antiquewhite;font-size: 1.6em;}
   ul li a:hover {color: white;}  
   #check:checked ~ ul {right: 0;}
@@ -200,12 +200,10 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
 
  .block_title {
   box-sizing: border-box;
-  max-width: 80rem;
-  padding-inline: 1rem;
-  margin-inline: auto;
+  margin:  0 auto;
+  text-wrap: balance; /* Равномерно распределяет текст */
+  max-width: 50rem;;
   text-align: center;
-  text-wrap: balance;
-
   font-family: "PT Sans", sans-serif;
   font-size:1.7em;
   font-style: regular;
@@ -215,8 +213,8 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
 .block_subtitle {
   font-family: "PT Sans", sans-serif;
   font-size:1.4em;
-  font-style: bold;
-  font-weight:700;
+  font-style: normal;
+  font-weight:400;
   color: #5d001a;  /* Темный текст на белом фоне фоне */ 
 }
 .block_text {
