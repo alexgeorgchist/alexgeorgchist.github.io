@@ -200,6 +200,7 @@ ul li a:hover {font-weight: 700;color: #5d001a;}
 
  .block_title {
   font-family: "PT Sans", sans-serif;
+  text-wrap: balance;
   font-size:1.7em;
   font-style: regular;
   font-weight:400;  
