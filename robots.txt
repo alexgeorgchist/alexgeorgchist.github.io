@@ -6,7 +6,7 @@ Disallow: /fonts// # папка на хостинге
 Allow: /*/*.js
 Allow: /*/*.css
 Allow: /*.jpg
-Allowv /*.png
+Allow: /*.png
 
 
 #Disallow: /? # все параметры запроса на главной
@@ -37,7 +37,7 @@ Disallow: /fonts// # папка на хостинге
 Allow: /*/*.js
 Allow: /*/*.css
 Allow: /*.jpg
-Allowv /*.png
+Allow: /*.png
 
 #Allow: */uploads Allow: /*/*.js # открываем js-скрипты внутри /wp- (/*/ - для приоритета)
 #Allow: /*/*.css # открываем css-файлы внутри /wp- (/*/ - для приоритета)
