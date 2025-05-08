@@ -5,6 +5,8 @@ height="32"/>,</h1>
 
 <img src="img\website\headers\panorama_day.png" alt="foto church">
 <h3>EN</h3>
-<p>Parish website of the church in honor of the blessed prince Alexander Nevsky of the Russian Orthodox Church, located in the Azino microdistrict of the city of Kazan</p>
+<p>Parish website of the church in honor of the blessed prince Alexander Nevsky of the Russian Orthodox Church, located in the Azino microdistrict of the city of Kazan.</p>
 <h3>RU</h3>
-<p>Приходской сайт храма в честь благоверного князя Александра Невского Русской Православной Церкви, расположенный в микрорайоне Азино города Казани.</p>
+<p>Приходской сайт храма в честь благоверного князя Александра Невского Русской Православной Церкви, расположенный в микрорайоне Азино города Казани.
+
+Расписание Богослужений и другая полезная информация.Еженедельное обновление.</p>
