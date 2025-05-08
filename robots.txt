@@ -1,5 +1,4 @@
 # Укажите один или несколько файлов Sitemap (дублировать для каждого User-agent не нужно). Google XML Sitemap создает 2 карты сайта, как в примере ниже.
-Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 User-agent: * # общие правила для роботов, кроме Яндекса и Google, т.к. для них правила ниже
 Disallow: /fonts/ # папка на хостинге
@@ -8,6 +7,7 @@ Allow: /*/*.js
 Allow: /*/*.css
 Allow: /*.jpg
 Allow: /*.png
+Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
 #Disallow: /? # все параметры запроса на главной
@@ -28,7 +28,7 @@ Allow: /*.png
 #Disallow: *utm*= # ссылки с utm-метками
 #Disallow: *openstat= # ссылки с метками openstat
 #Allow: */uploads # открываем папку с файлами uploads
-
+Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
 
@@ -48,7 +48,7 @@ Allow: /*.png
 #Allow: /wp-*.jpeg # картинки в плагинах, cache папке и т.д.
 #Allow: /wp-*.gif # картинки в плагинах, cache папке и т.д.
 #Allow: /wp-admin/admin-ajax.php # используется плагинами, чтобы не блокировать JS и CSS
-
+Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
 
@@ -84,7 +84,7 @@ Clean-Param: openstat # аналогично
 #Allow: /wp-*.jpeg
 #Allow: /wp-*.gif
 #Allow: /wp-admin/admin-ajax.php
-
+Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
 
