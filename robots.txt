@@ -2,10 +2,11 @@
 Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 User-agent: * # общие правила для роботов, кроме Яндекса и Google, т.к. для них правила ниже
-Disallow: /img/ # папка на хостинге
 Disallow: /fonts// # папка на хостинге
 Allow: /*/*.js
 Allow: /*/*.css
+Allow: /*.jpg
+Allowv /*.png
 
 
 #Disallow: /? # все параметры запроса на главной
@@ -32,10 +33,11 @@ Allow: /*/*.css
 
 
 User-agent: GoogleBot # правила для Google (комментарии не дублирую)
-Disallow: /img/ # папка на хостинге
 Disallow: /fonts// # папка на хостинге
 Allow: /*/*.js
 Allow: /*/*.css
+Allow: /*.jpg
+Allowv /*.png
 
 #Allow: */uploads Allow: /*/*.js # открываем js-скрипты внутри /wp- (/*/ - для приоритета)
 #Allow: /*/*.css # открываем css-файлы внутри /wp- (/*/ - для приоритета)
