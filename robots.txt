@@ -1,5 +1,5 @@
 # Укажите один или несколько файлов Sitemap (дублировать для каждого User-agent не нужно). Google XML Sitemap создает 2 карты сайта, как в примере ниже.
-Sitemap: https://alexgeorgchist.github.io/sitemap.xml
+Sitemap: https://alexgeorgchist.github.io/sitemap.txt
 
 User-agent: * # общие правила для роботов, кроме Яндекса и Google, т.к. для них правила ниже
 Disallow: /img/ # папка на хостинге
