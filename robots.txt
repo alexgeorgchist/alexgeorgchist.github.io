@@ -4,7 +4,6 @@ Sitemap: https://alexgeorgchist.github.io/sitemap.txt
 User-agent: * # общие правила для роботов, кроме Яндекса и Google, т.к. для них правила ниже
 Disallow: /img/ # папка на хостинге
 Disallow: /fonts// # папка на хостинге
-Disallow: /script/ # папка на хостинге
 Allow: /*/*.js
 Allow: /*/*.css
 
@@ -35,7 +34,6 @@ Allow: /*/*.css
 User-agent: GoogleBot # правила для Google (комментарии не дублирую)
 Disallow: /img/ # папка на хостинге
 Disallow: /fonts// # папка на хостинге
-Disallow: /script/ # папка на хостинге
 Allow: /*/*.js
 Allow: /*/*.css
 
