@@ -312,7 +312,7 @@ td {
   font-size:1em;  
   color: #c5c5c5;  
   font-family: PT Sans;
-  background-color: #1c1c1c;
+  background-color: #1f2833;
   justify-content: center;
   padding: 0 7%;
 }
@@ -364,7 +364,7 @@ h2 {
 }
 .copy-right-sec{
   padding: 0.5em;
-  background: #541313;
+  background: #004687;
   color: #f8f8f8;
   text-align: center;
 }
