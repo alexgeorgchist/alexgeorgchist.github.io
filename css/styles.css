@@ -125,6 +125,7 @@ img {
 .img_decor {border-radius: 8px;} /* Духовенство картинки */
 .raspisanie img{border: 4px solid transparent;}
 .img_hover:hover {border: 4px solid blue; /* Ширина, вид и цвет рамки */}
+.qr {width: 60%; margin: 0 auto;}
 
 div.polaroid {
   width: 85%;
