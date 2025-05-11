@@ -185,7 +185,7 @@ ul li a {
   }
   .logo_nav {
     display: flex;
-    font-size: 1.3em;
+    font-size: 1rem;
     color: #5d001a;
   }
   .checkbtn {
@@ -209,7 +209,7 @@ ul li a {
   ul li {margin: 1em 0;}
   ul li a {
     color: antiquewhite;
-    font-size: 1.6em;
+    font-size: 1.3rem;
     &:hover {color: white;}
   }  
   #check:checked ~ ul {right: 0;}
