@@ -220,22 +220,20 @@ ul li a {
  -------------------------------------------------------*/
 
  .block_title {
-  box-sizing: border-box;
-  margin:  0 auto 1em auto;
-  text-wrap: balance; /* Равномерно распределяет текст */
-  max-width: 50rem;;
+  box-sizing: border-box;  
+  text-wrap: balance; /* Равномерно распределяет текст */  
   text-align: center;
   font-family: "PT Sans", sans-serif;
-  font-size:1.5rem;
+  font-size:1.4rem;
   font-style: regular;
-  font-weight:400;  
+  font-weight:500;  
   color: #5d001a;/* Темный текст на белом фоне фоне */ 
 }
 .block_subtitle {  
   font-family: "PT Sans", sans-serif;
-  font-size:1.3rem;
+  font-size:1.2rem;
   font-style: normal;
-  font-weight:700;  
+  font-weight:400;  
   
 }
 .block_text {
@@ -273,20 +271,22 @@ table {
   border: 2px solid #1f2833;
   border-collapse: collapse;
   text-align: center;
-  margin-bottom: 20px;   
+  margin-bottom: 20px;  
+  font-size: 0.8rem; 
 }
 caption {color: #5d001a;margin-bottom: 1em;}
-td {
-  text-align: left;
-	padding: 10px;
-	border: 1px solid #1f2833;
-}
- th {
+th {
   text-align: center;
   padding: 10px;
 	border: 2px solid #1f2833;
   background-color: #faf5f5;
  }
+td {
+  text-align: left;
+	padding: 10px;
+	border: 1px solid #1f2833;
+}
+ 
 
 /*------------------------------------------------
          КНОПКА ВОЗВРАТА BUTTON UP
