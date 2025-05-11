@@ -206,7 +206,7 @@ ul li a {
     align-items: center;
     transition: all 0.5s;       
   }
-  ul li {margin: 1em 0;}
+  ul li {margin: 0.8rem 0;}
   ul li a {
     color: antiquewhite;
     font-size: 1.1rem;
