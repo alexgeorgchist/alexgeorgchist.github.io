@@ -369,13 +369,14 @@ h2 {
 }
 .copy-right-sec{
   padding: 0.5em;
-  background: #004687;
+  background: #00284d;
   color: #f8f8f8;
   text-align: center;
+  font-size: 0.8rem;;
 }
 .copy-right-sec a{
  color: #a89f91;
- font-weight: 900;
+ font-size: 0.8rem;
 }
 a{text-decoration:none;}
 /*----------------------------------------------
