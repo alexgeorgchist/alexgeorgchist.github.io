@@ -40,7 +40,7 @@ body {
 
 html, body {
   font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
-  font-size: 14px; 
+  font-size: 16px; 
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -177,7 +177,7 @@ ul li a {
                МЕНЮ МОБИЛЬНОГО МАКЕТА
 ------------------------------------------------------------*/
 @media (max-width: 768px) {  
-  body {font-size: 16px;}
+  html, body {font-size: 22px;}
   #siteAds {display: none;}
   nav {
     justify-content: space-between;
@@ -226,27 +226,27 @@ ul li a {
   max-width: 50rem;;
   text-align: center;
   font-family: "PT Sans", sans-serif;
-  font-size:1.7em;
+  font-size:1.7rem;
   font-style: regular;
   font-weight:400;  
   color: #5d001a;/* Темный текст на белом фоне фоне */ 
 }
-.block_subtitle {
-  box-sizing: border-box;
-  text-wrap: balance; /* Равномерно распределяет текст */
+.block_subtitle {  
   font-family: "PT Sans", sans-serif;
-  font-size:1.3em;
+  font-size:1.3rem;
   font-style: normal;
   font-weight:700;  
-  text-align: center;
+  
 }
 .block_text {
   font-family: "PT Sans", sans-serif;
   font-style: regular;
-  font-weight:normal;
-  font-size: 1.3em; 
+  font-weight:normal;  
 }
 .text_hover{
+  font-family: "PT Sans", sans-serif;
+  font-style: regular;
+  font-weight:normal;  
   color: blue;
   &:hover {text-decoration: underline;}
 } 
@@ -256,26 +256,24 @@ ul li a {
   font-family: "Vertograd";
   font-style: normal;
   font-weight: 400;
-  font-size: 4em;
+  font-size: 3rem;
   color: #a00;
 }
 .alert {   
   font-family: "PT Sans", sans-serif;
   font-style: italic;
-  font-weight:normal;
-  font-size: 1.3em;     
+  font-weight:normal;      
   border-left: 4px solid #a00; /* Параметры линии */ 
   padding: 10px; /* Расстояние от линии до текста */
   background: #f5f5f5; /* Цвет фона */
 }
-time {font: italic 1em sans-serif;}
+time {font: italic 0.9rem "PT Sans",sans-serif;}
 table {
   width: 100%;
   border: 2px solid #1f2833;
   border-collapse: collapse;
   text-align: center;
-  margin-bottom: 20px;  
-  font-size: 1.2em;
+  margin-bottom: 20px;   
 }
 caption {color: #5d001a;margin-bottom: 1em;}
 td {
@@ -309,101 +307,13 @@ td {
          КНОПКИ НРАВИТСЯ НЕ НРАВИТСЯ
 --------------------------------------------------*/
 
-.like-wrapper {
-  box-sizing: border-box;
-  width: 20%;
-    --gap: 0.5em;
-    --radius: 0.35em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    --dot-bg: #212121;
-    --dot-color: #313131;
-    --dot-size: 1px;
-    --dot-space: 22px;
-    background: linear-gradient(90deg,
-            var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
-            transparent 1%) center / var(--dot-space) var(--dot-space),
-        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
-            transparent 1%) center / var(--dot-space) var(--dot-space),
-        var(--dot-color);
-    border: 0.1em solid #313131;
-    padding: 0.5em;
-    border-radius: var(--radius);
-    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-.check[type="checkbox"] {
-    display: none;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    margin-top: -0.25em;
-    margin-bottom: -0.25em;
-}
-
-.icon {
-    width: 1.5em;
-    height: 1.5em;
-    margin-left: 0.5em;
-    fill: white;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.icon.active {
-    display: none;
-    fill: #f52121;
-}
-
-.check[type="checkbox"]:checked+.container .icon.active {
-    display: inline-block;
-    animation: wiggle 0.5s ease-in-out;
-}
-
-.check[type="checkbox"]:checked+.container .icon.inactive {
-    display: none;
-}
-
-.like-text {
-    margin-left: 0.5em;
-    padding: 0.5em;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-weight: bolder;
-}
-
-@keyframes wiggle {
-
-    0%,
-    100% {
-        transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(-10deg);
-    }
-
-    50% {
-        transform: rotate(10deg);
-    }
-
-    75% {
-        transform: rotate(-10deg);
-    }
-}
 
 
 /*--------------------------------------------------
                 ПОДВАЛ FOOTER
 ----------------------------------------------------*/
 
-#footer{
-  font-size:1em;  
+#footer{  
   color: #c5c5c5;  
   font-family: PT Sans;
   background-color: #1f2833;
