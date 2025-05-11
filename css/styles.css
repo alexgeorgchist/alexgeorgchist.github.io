@@ -266,7 +266,7 @@ ul li a {
   padding: 10px; /* Расстояние от линии до текста */
   background: #f5f5f5; /* Цвет фона */
 }
-time {font: italic 0.9rem "PT Sans",sans-serif;}
+time {font: italic 0.8rem "PT Sans",sans-serif;}
 table {
   width: 100%;
   border: 2px solid #1f2833;
