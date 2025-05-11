@@ -57,6 +57,7 @@ html, body {
        url("../fonts/PTSans-Regular.ttf"),
           ("../fonts/PTSans-Bold.ttf");
 }
+
 @font-face {
   font-family: "Monomakh";
   font-style: normal;
