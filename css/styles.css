@@ -178,7 +178,10 @@ ul li a {
                МЕНЮ МОБИЛЬНОГО МАКЕТА
 ------------------------------------------------------------*/
 @media (max-width: 768px) {  
-  html, body {font-size: 22px;}
+  html, body {
+  font-size: 22px;
+  background: #fffdfd;
+}
   #siteAds {display: none;}
   nav {
     justify-content: space-between;
