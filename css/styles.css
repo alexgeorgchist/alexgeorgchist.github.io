@@ -123,10 +123,20 @@ img {
   width: 100%; /* Подстраивается под размер любого контейнера */
   height: auto; /* Пропорции не меняются при изменении размера */  
 }
-.img_decor {border-radius: 8px;} /* Духовенство картинки */
+.img_decor {
+  outline: 10px groove #e2e2e2; /* Ширина, вид(обрамление рамки) и цвет рамки */
+  outline-offset: -10px; /* Выводим рамку внутри элемента */
+}
+.img-content {
+  outline: 2px dashed #fff; /* Ширина, вид(пунктир) и цвет рамки */
+  outline-offset: -10px; /* Выводим рамку внутри элемента */
+}  
 .raspisanie img{border: 4px solid transparent;}
 .img_hover:hover {border: 4px solid blue; /* Ширина, вид и цвет рамки */}
-.qr {width: 60%; margin: 0 auto;}
+
+.social-qr {display: flex; justify-content: space-between;}
+.whatsapp, .telegram {width: 45%;text-align: center;}
+.qr {width: 90%; margin: 0 auto;}
 
 div.polaroid {
   width: 85%;
@@ -217,6 +227,9 @@ ul li a {
     &:hover {color: antiquewhite;}
   }  
   #check:checked ~ ul {right: 0;}
+  .social-qr {flex-direction:column;}
+  .whatsapp, .telegram {width: 100%;text-align: center;}
+  .qr {width: 50%; margin: 0 auto;}
 }
 
 /*-------------------------------------------------------
@@ -341,7 +354,7 @@ td {
   font-size: 0.8rem;
   color: #c5c5c5;  
   font-family: "PT Sans";
-  background-color: #2b1b17;
+  background-color: #1d120f;
   justify-content: center;
   padding: 0 7%;
 }
@@ -352,7 +365,7 @@ td {
 h2 {
   color: #a89f91;
   text-align: left;  
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 .footer-roundlogo {display: none;}
 .footer-about {
@@ -367,10 +380,10 @@ h2 {
   padding: 0 20%;   
 }  
 .links a{
-  font-size: 1em;
+  font-size: 0.8rem;
   margin: 0.2em 0;
   color: #c5c5c5;
-  &:hover {color: #a89f91;}
+  &:hover {color: #fff;}
 }
 
 .social-links img{
@@ -394,12 +407,12 @@ h2 {
 .copy-right-sec{
   padding: 0.5em;
   background: #5d001a;
-  color: #f8f8f8;
+  color: wheat;
   text-align: center;
   font-size: 0.8rem;;
 }
 .copy-right-sec a{
- color: #a89f91;
+ color: #c5c5c5;
  font-size: 0.8rem;
 }
 a{text-decoration:none;}
