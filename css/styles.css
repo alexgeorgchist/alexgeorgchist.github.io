@@ -124,8 +124,9 @@ img {
   height: auto; /* Пропорции не меняются при изменении размера */  
 }
 .img_decor {
-  outline: 10px groove #e2e2e2; /* Ширина, вид(обрамление рамки) и цвет рамки */
-  outline-offset: -10px; /* Выводим рамку внутри элемента */
+  outline: 15px groove #fdf5e6; /* Ширина, вид(обрамление рамки) и цвет рамки */
+  outline-offset: -15px; /* Выводим рамку внутри элемента */
+  box-shadow: 8px 6px 16px 0 rgba(0, 0, 0, 0.6), 12px 8px 24px 0 rgba(0, 0, 0, 0.19);
 }
 .img-content {
   outline: 2px dashed #fff; /* Ширина, вид(пунктир) и цвет рамки */
