@@ -386,8 +386,8 @@ h2 {
 .links a{
   font-size: 0.8rem;
   margin: 0.2em 0;
-  color: #c5c5c5;
-  &:hover {color: #fff;}
+  color: #d5d2d2;
+  &:hover {color: #aca7ac;}
 }
 
 .social-links img{
@@ -416,7 +416,7 @@ h2 {
   font-size: 0.8rem;;
 }
 .copy-right-sec a{
- color: #c5c5c5;
+ color: #d5d2d2;
  font-size: 0.8rem;
 }
 a{text-decoration:none;}
