@@ -215,7 +215,7 @@ ul li a {
     position: fixed;
     top: 1em;
     right: -100%;
-    background-color: #1d120f;
+    background-color: #3d3331;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -358,7 +358,7 @@ td {
   font-size: 0.8rem;
   color: #003153;  
   font-family: "PT Sans";
-  background-color: #003153;
+  background-color: #1d120f;
   justify-content: center;
   padding: 0 7%;
 }
