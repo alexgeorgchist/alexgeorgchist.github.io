@@ -140,7 +140,7 @@ img {
 
 .social-qr {display: flex; justify-content: space-between;}
 .whatsapp, .telegram {width: 45%;text-align: center;}
-.qr {width: 90%; margin: 0 auto;}
+.qr {width: 80%; margin: 0 auto;}
 
 div.polaroid {
   width: 85%;
