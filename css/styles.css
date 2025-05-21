@@ -431,8 +431,7 @@ a{text-decoration:none;}
 .footer-roundlogo {
   display: flex;
   margin: 1em auto;
-  width: 40%;
-  clip-path: circle(50%);
+  width: 50%;
 }
 .links {padding: 0 0 1em 10px;}
 .links a{  
