@@ -377,6 +377,7 @@ h2 {
   flex-direction: column;
   padding: 0 5%;
   text-align: justify;
+color: #d5d2d2;
 }  
 .links {
   display:flex; 
@@ -438,7 +439,7 @@ a{text-decoration:none;}
   font-size: 1rem;
   margin: 0.25em 0; /* расстояние между строками меню footer*/   
   text-align: left;
-  color: #c5c5c5;
+  color: #d5d2d2;
 }
 .social-icons {
   padding: 1em 0 4em 0;
