@@ -139,7 +139,7 @@ img {
 .img_hover:hover {border: 4px solid blue; /* Ширина, вид и цвет рамки */}
 
 .social-qr {display: flex; justify-content: space-between;}
-.whatsapp, .telegram {width: 45%;text-align: center;}
+.whatsapp, .telegram, .vk {width: 45%;text-align: center;}
 .qr {width: 80%; margin: 0 auto;}
 
 div.polaroid {
@@ -364,7 +364,7 @@ td {
 }
 .first_block {
   display: grid;
-  grid-template-columns: 0.5fr 1fr 0.5fr 1fr;
+  grid-template-columns: 0.6fr 1fr 0.5fr 1fr;
   }
 h2 {
   color: #857e7c;
