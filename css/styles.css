@@ -364,7 +364,7 @@ td {
 }
 .first_block {
   display: grid;
-  grid-template-columns: 0.6fr 1fr 0.5fr 1fr;
+  grid-template-columns: 0.55fr 1fr 0.45fr 1fr;
   }
 h2 {
   color: #857e7c;
@@ -411,7 +411,7 @@ color: #d5d2d2;
 }
 .copy-right-sec{
   padding: 0.5em;
-  background: #3d3331;
+  background: #003153;
   color: white;
   text-align: center;
   font-size: 0.8rem;;
