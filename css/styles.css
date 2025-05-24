@@ -393,7 +393,9 @@ color: #d5d2d2;
 
 .social-links img{
   height: 40px; 
-  width: 40px;  
+  width: 40px;    
+  transition: 0.4s; /* Время изменения цвета изображения */
+  &:hover {transform: scale(1.2); /* Увеличиваем масштаб */}
 }
 .footerlogo {
  display: flex;
