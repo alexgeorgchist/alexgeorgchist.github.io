@@ -371,7 +371,12 @@ h2 {
   text-align: left;  
   font-size: 1rem;
 }
-.footer-roundlogo {margin: auto auto;}
+.footer-roundlogo {
+  display: flex;
+  margin: auto auto;
+  width: 90%;
+  clip-path: circle(50%);
+}
 .footer-about {
   display:flex; 
   flex-direction: column;
@@ -431,11 +436,9 @@ a{text-decoration:none;}
 .first_block {grid-template-columns: 1fr;}
 .footer-about {display: none;}
 .footerlogo {display: none;}
-.footer-roundlogo {
-  display: flex;
+.footer-roundlogo {  
   margin: 1em auto;
   width: 40%;
-  clip-path: circle(50%);
 }
 .links {padding: 0 0 1em 10px;}
 .links a{  
