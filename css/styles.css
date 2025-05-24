@@ -393,7 +393,7 @@ color: #d5d2d2;
   font-size: 0.8rem;
   margin: 0.2em 0;
   color: #d5d2d2;
-  &:hover {color: #aca7ac;}
+  &:hover {color: #fff;font-weight: 700;}
 }
 
 .social-links img{
@@ -418,7 +418,7 @@ color: #d5d2d2;
 }
 .copy-right-sec{
   padding: 0.5em;
-  background: #605755;
+  background: #5d001a;
   color: white;
   text-align: center;
   font-size: 0.8rem;;
@@ -436,9 +436,7 @@ a{text-decoration:none;}
 .first_block {grid-template-columns: 1fr;}
 .footer-about {display: none;}
 .footerlogo {display: none;}
-.footer-roundlogo {  
-  margin: 1em auto;
-  width: 40%;
+.footer-roundlogo {margin: 1em auto;width: 40%;
 }
 .links {padding: 0 0 1em 10px;}
 .links a{  
