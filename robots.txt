@@ -1,26 +1,5 @@
-# Укажите один или несколько файлов Sitemap (дублировать для каждого User-agent не нужно).
-
-
-User-agent: GoogleBot # правила для Google
-Disallow: /archiv/
-Disallow: /admin/
-
-
-User-agent: Yandex # правила для Яндекса
-Disallow: /archiv/
-Disallow: /admin/
-Clean-Param: utm_source&utm_medium&utm_campaign # Яндекс рекомендует не закрывать
-# от индексирования, а удалять параметры меток,
-# Google такие правила не поддерживает
-Clean-Param: openstat # аналогично
-
-
-User-agent: * # общие правила для роботов, кроме Яндекса и Google, т.к. для них правила выше
+User-agent: * # общие правила для всех роботов
 Disallow: /arhiv/
 Disallow: /admin/
 
 Sitemap: https://alexgeorgchist.github.io/sitemap.xml
-
-
-
-# Host прописывать больше не нужно.
