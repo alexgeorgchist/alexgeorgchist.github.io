@@ -1,27 +1,24 @@
 # Укажите один или несколько файлов Sitemap (дублировать для каждого User-agent не нужно). Google XML Sitemap создает 2 карты сайта, как в примере ниже.
 
 User-agent: * # общие правила для роботов, кроме Яндекса и Google, т.к. для них правила ниже
-Disallow: /fonts/ # папка на хостинге
 Disallow: /arhiv/
 Disallow: /admin/
-Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
-User-agent: GoogleBot # правила для Google (комментарии не дублирую)
-Disallow: /fonts/ # папка на хостинге
+User-agent: GoogleBot # правила для Google
 Disallow: /archiv/
 Disallow: /admin/
-Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
-User-agent: Yandex # правила для Яндекса (комментарии не дублирую)
-Disallow: /fonts// # папка на хостинге
+User-agent: Yandex # правила для Яндекса
 Disallow: /archiv/
 Disallow: /admin/
 Clean-Param: utm_source&utm_medium&utm_campaign # Яндекс рекомендует не закрывать
 # от индексирования, а удалять параметры меток,
 # Google такие правила не поддерживает
 Clean-Param: openstat # аналогично
+
+
 Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
