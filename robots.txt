@@ -3,3 +3,4 @@ Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 User-agent: * # общие правила для всех роботов
 Disallow: /arhiv/
 Disallow: /admin/
+Disallow: /fonts/
