@@ -199,6 +199,7 @@ ul li a {
   background: #fffdfd;
 }
   #siteAds {display: none;}
+  .logo_head {font: normal calc(0.8rem + 2 * (100vw - 120px) / 100) 'Monomakh';}
   nav {
     justify-content: space-between;
     background-color: #fff;
