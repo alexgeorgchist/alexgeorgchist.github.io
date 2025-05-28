@@ -4,34 +4,20 @@ User-agent: * # общие правила для роботов, кроме Ян
 Disallow: /fonts/ # папка на хостинге
 Disallow: /arhiv/
 Disallow: /admin/
-Allow: /*/*.js
-Allow: /*/*.css
-Allow: /*.jpg
-Allow: /*.png
 Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
-User-agent: GoogleBot # правила для Google (комментарии не дублирую)
+User-agent: GoogleBot # правила для Google
 Disallow: /fonts/ # папка на хостинге
 Disallow: /archiv/
 Disallow: /admin/
-Allow: /*/*.js
-Allow: /*/*.css
-Allow: /*.jpg
-Allow: /*.png
 Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
-User-agent: Yandex # правила для Яндекса (комментарии не дублирую)
+User-agent: Yandex # правила для Яндекса
 Disallow: /fonts// # папка на хостинге
 Disallow: /archiv/
 Disallow: /admin/
-Allow: /*/*.js
-Allow: /*/*.css
-Clean-Param: utm_source&utm_medium&utm_campaign # Яндекс рекомендует не закрывать
-# от индексирования, а удалять параметры меток,
-# Google такие правила не поддерживает
-Clean-Param: openstat # аналогично
 Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
