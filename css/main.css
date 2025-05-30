@@ -1,0 +1,38 @@
+/* -------------------------------------------------
+       ОСНОВНЫЕ НАСТРОЙКИ АДАПТИВНОЙ СЕТКИ
+   -----------------------------------------------*/  
+body { 
+  display: grid;
+  grid-template-areas: 
+   "header header"
+   "nav nav"
+   "article ads"
+   "footer footer";
+  grid-template-rows: auto 70px 1fr 1fr; 
+  grid-template-columns: 1fr 25%;  
+  height: 100vh;
+  margin: 0;
+ } 
+ /* Макет для маленьких устройств/экранов */
+ @media all and (max-width: 768px) {
+ body { 
+   grid-template-areas: 
+     "header"
+     "nav"
+     "article"
+     "ads"
+     "footer";
+   grid-template-rows: auto 50px 1fr 1fr 1fr; 
+   grid-template-columns: 1fr;
+ }
+}
+ article, nav, aside {padding: 1em;}
+
+ #pageHeader {grid-area: header;}
+ #mainNav {grid-area: nav;}
+ #mainArticle {grid-area: article;}
+ #siteAds {grid-area: ads;}
+ #pageFooter {grid-area: footer;}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
