@@ -159,7 +159,7 @@ h2 {
 .footer-roundlogo {
   display: flex;
   margin: auto auto;
-  width: 80%;
+  width: 70%;
   clip-path: circle(50%);
 }
 .footer-about {
