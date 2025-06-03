@@ -64,6 +64,7 @@ ul li a {
     align-items: center;
     transition: all 0.5s;    
     background: center / cover url('../img/menu/menu_background.png');   
+    filter: brightness (50%);
     /*background-color: #3d3331;*/
     top: 1px;
     border: 15px solid #a10000;
