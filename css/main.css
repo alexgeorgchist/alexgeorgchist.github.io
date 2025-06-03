@@ -33,6 +33,15 @@ body {
  #mainArticle {grid-area: article;}
  #siteAds {grid-area: ads;}
  #pageFooter {grid-area: footer;}
+
+
+ 
+html, body {
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 16px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 
