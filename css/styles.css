@@ -7,25 +7,6 @@ html, body {
 }
 
 
-/*---------------------------------------------------------
-                         HEADER
----------------------------------------------------------*/
-
-.logo_head {  
-  background: center / cover url('../img/website/headers/up-hram.png');
-  display: flex;
-  width: 100%;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  font:
-    normal calc(1.2em + 2 * (100vw - 120px) / 100) 'Monomakh';
-  color: #faf5f5;
-  text-shadow: #541313 5px 5px 0.1rem;
-  padding-top: 27%;  
-}
-
-
 /*------------------------------------------------------
                      МЕНЮ
 -------------------------------------------------------*/
@@ -103,13 +84,7 @@ ul li a {
     font-size: 1.1rem;
     &:hover {color: antiquewhite;}
   }  
-  #check:checked ~ ul {right: 0;}
-  .social-qr {display: grid; 
-  grid-template-columns: 1fr;
-  gap: 2em 0;
-}
-  .whatsapp, .telegram {width: 100%;text-align: center;}
-  .qr {width: 50%; margin: 0 auto;}
+  #check:checked ~ ul {right: 0;}  
 }
 
 
@@ -133,106 +108,3 @@ ul li a {
 /*------------------------------------------------
          КНОПКИ НРАВИТСЯ НЕ НРАВИТСЯ
 --------------------------------------------------*/
-
-
-
-/*--------------------------------------------------
-                ПОДВАЛ FOOTER
-----------------------------------------------------*/
-
-#footer{
-  font-size: 0.8rem;
-  color: #003153;  
-  font-family: "PT Sans";
-  background-color: #1d120f;
-  justify-content: center;
- }
-.first_block {
-  display: grid;
-  grid-template-columns: 0.4fr 1fr 0.5fr 0.8fr;
-  }
-h2 {
-  color: #857e7c;
-  text-align: left;  
-  font-size: 1rem;
-}
-.footer-roundlogo {
-  display: flex;
-  margin: auto auto;
-  width: 70%;
-  clip-path: circle(50%);
-}
-.footer-about {
-  display:flex; 
-  flex-direction: column;
-  padding: 0 5%;
-  text-align: justify;
-color: #d5d2d2;
-}  
-.links {
-  display:flex; 
-  flex-direction: column;
-  padding: 0 20%;   
-}  
-.links a{
-  font-size: 0.8rem;
-  margin: 0.2em 0;
-  color: #d5d2d2;
-  &:hover {color: #fff;font-weight: 700;}
-}
-
-.social-links img{
-  height: 40px; 
-  width: 40px;    
-  transition: 0.4s; /* Время изменения цвета изображения */
-  &:hover {transform: scale(1.2); /* Увеличиваем масштаб */}
-}
-.footerlogo {
- display: flex;
- flex-direction: column;
-}
-.footerlogo img {
-  width: auto;  
-  margin: 5% auto; 
-}
-.social-icons{ 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 7%;
-}
-.copy-right-sec{
-  padding: 0.5em;
-  background: #5d001a;
-  color: white;
-  text-align: center;
-  font-size: 0.8rem;;
-}
-.copy-right-sec a{
- color: #d5d2d2;
- font-size: 0.8rem;
-}
-a{text-decoration:none;}
-/*----------------------------------------------
-      Изменения для мобильной верстки подвала
-----------------------------------------------*/      
-@media (max-width: 768px) {
-#footer { padding: 0 3%;}
-.first_block {grid-template-columns: 1fr;}
-.footer-about {display: none;}
-.footerlogo {display: none;}
-.footer-roundlogo {margin: 1em auto;width: 40%;
-}
-.links {padding: 0 0 1em 10px;}
-.links a{  
-  font-size: 1rem;
-  margin: 0.25em 0; /* расстояние между строками меню footer*/   
-  text-align: left;
-  color: #d5d2d2;
-}
-.social-icons {
-  padding: 1em 0 4em 0;
-  border-top: 1px solid #a89f91;
-}
-}	
-/* footer section end */

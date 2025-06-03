@@ -37,3 +37,16 @@ div.polaroid {
   text-align: center;
   padding: 10px 10px;
 }
+
+/*----------------------------------------------------------------------------------------
+           НАСТРОЙКИ ДЛЯ МОБИЛЬНОЙ ВЕРСТКИ
+----------------------------------------------------------------------------------------*/
+@media (max-width: 768px) {  
+  .social-qr {  /*QRcodes for contacts.html */
+  display: grid; 
+  grid-template-columns: 1fr;
+  gap: 2em 0;
+}
+  .whatsapp, .telegram {width: 100%;text-align: center;}
+  .qr {width: 50%; margin: 0 auto;}
+}
