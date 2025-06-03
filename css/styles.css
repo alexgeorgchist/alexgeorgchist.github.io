@@ -59,12 +59,12 @@ ul li a {
   ul {
     position: fixed;
     top: 1px;
-    border: 10px solid #a10000;;
-    right: calc(-100% - 20px);
+    border: 15px solid #a10000;;
+    right: calc(-100% - 30px);
     background: center / cover url('../img/menu/menu_background.png');   
     /*background-color: #3d3331;*/
-    width: calc(100% - 20px);
-    height: calc(100vh - 20px);
+    width: calc(100% - 30px);
+    height: calc(100vh - 30px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,7 +77,10 @@ ul li a {
     font-size: 1.3rem;
     text-shadow:1px 2px black;
     font-weight: 400;
-    
+    &:hover {
+    text-decoration: none;
+    color: #ececec;
+  }
   }  
   #check:checked ~ ul {right: 0;}  
 }
