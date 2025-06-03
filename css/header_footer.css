@@ -95,9 +95,11 @@ color: #d5d2d2;
 }
 a{text-decoration:none;}
 /*----------------------------------------------
-      Изменения для мобильной верстки подвала
+      Изменения для мобильной верстки header  и footer
 ----------------------------------------------*/      
 @media (max-width: 768px) {
+.logo_head {font: normal calc(0.8rem + 2 * (100vw - 120px) / 100) 'Monomakh';}
+
 #footer { padding: 0 3%;}
 .first_block {grid-template-columns: 1fr;}
 .footer-about {display: none;}
