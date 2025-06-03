@@ -94,7 +94,7 @@ ul li a {
 .back-to-top {
   width: 55px;
   height: 55px;
-  background-image: url('../img/logo/up.png');
+  background-image: url('../img/logo/up_shevron.png');
   background-size: cover;
   position: fixed;
   bottom: 20px;
