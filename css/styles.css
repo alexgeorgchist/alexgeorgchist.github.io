@@ -64,8 +64,7 @@ ul li a {
     align-items: center;
     transition: all 0.5s;    
     background: center / cover url('../img/menu/menu_background.png');
-    filrer:brightness(30%);
-    filter:blur(3px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("url_of_image"))
     /*background-color: #3d3331;*/
     top: 1px;
     border: 15px solid #a10000;
