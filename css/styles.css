@@ -63,7 +63,7 @@ ul li a {
     justify-content: center;
     align-items: center;
     transition: all 0.5s;    
-    background: center / cover url('../img/menu/menu_background.png') rgba(0, 0, 0, 0.6); /* Прописываем путь к картинке и задаем цвет и прозрачность */
+    background: center / cover url('../img/menu/menu_background.png') rgba(0, 0, 0, 0.3); /* Прописываем путь к картинке и задаем цвет и прозрачность */
     /*background-color: #3d3331;*/
     top: 1px;
     border: 15px solid #a10000;
