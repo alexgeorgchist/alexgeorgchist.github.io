@@ -65,7 +65,7 @@ ul li a {
     background: center / cover url('../img/menu/menu_background.png');
     /*background-color: #3d3331;*/
     top: 1px;
-    border: 10px solid #a10000;
+    border: 10px solid #750c0c;
     right: calc(-100% - 20px);    
     width: calc(100% - 20px);
     height: calc(100vh - 20px);           
