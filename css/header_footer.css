@@ -25,7 +25,7 @@
   font-size: 0.8rem;
   color: #003153;  
   font-family: "PT Sans";
-  background-color: #1d120f;
+  background-color: #2b1a15;
   justify-content: center;
  }
 .first_block {
@@ -37,11 +37,10 @@ h2 {
   text-align: left;  
   font-size: 1rem;
 }
-.footer-roundlogo {
+.footer-logo {
   display: flex;
   margin: auto auto;
-  width: 70%;
-  clip-path: circle(50%);
+  width: 90%; 
 }
 .footer-about {
   display:flex; 
@@ -104,7 +103,7 @@ a{text-decoration:none;}
 .first_block {grid-template-columns: 1fr;}
 .footer-about {display: none;}
 .footerlogo {display: none;}
-.footer-roundlogo {margin: 1em auto;width: 40%;
+.footer-logo {margin: 1em auto;width: 70%;
 }
 .links {padding: 0 0 1em 10px;}
 .links a{  
