@@ -103,8 +103,7 @@ a{text-decoration:none;}
 .first_block {grid-template-columns: 1fr;}
 .footer-about {display: none;}
 .footerlogo {display: none;}
-.footer-logo {margin: 1em auto;width: 70%;
-}
+.footer-logo {margin: 2em auto;width: 60%;}
 .links {padding: 0 0 1em 10px;}
 .links a{  
   font-size: 1rem;
