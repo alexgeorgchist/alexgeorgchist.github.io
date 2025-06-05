@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   font:
-    normal calc(1.2em + 2 * (100vw - 120px) / 100) 'Monomakh';
+    normal calc(1.1em + 2 * (100vw - 120px) / 100) 'Monomakh';
   color: #faf5f5;
   text-shadow: #541313 5px 5px 0.1rem;
   padding-top: 27%;  
