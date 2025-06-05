@@ -42,7 +42,7 @@ h2 {
   margin: auto auto;
   width: 90%; 
 }
-.footer-about, .links, social-iconss{padding:0 10%;}
+.footer-about, .links, .social-icons{padding:0 10%;}
 .footer-about {
   display:flex; 
   flex-direction: column;
@@ -109,7 +109,6 @@ a{text-decoration:none;}
   color: #d5d2d2;
 }
 .social-icons {
-  padding: 1em 0 4em 0;
   border-top: 1px solid #a89f91;
 }
 }	
