@@ -42,7 +42,7 @@ h2 {
   margin: auto auto;
   width: 90%; 
 }
-.footer-about, .links, .social-icons{padding:0 10%;}
+.footer-about, .links, .social-icons{padding:0 7%;}
 .footer-about {
   display:flex; 
   flex-direction: column;
