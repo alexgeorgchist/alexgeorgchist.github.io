@@ -42,12 +42,12 @@ h2 {
   margin: auto auto;
   width: 90%; 
 }
-.footer-about, .links, social-links{padding:0 10%;}
+.footer-about, .links, social-iconss{padding:0 10%;}
 .footer-about {
   display:flex; 
   flex-direction: column;
   text-align: justify;
-color: #d5d2d2;
+  color: #d5d2d2;
 }  
 .links {
   display:flex; 
@@ -77,8 +77,7 @@ color: #d5d2d2;
 .social-icons{ 
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 7%;
+  justify-content: space-evenly;
 }
 .copy-right-sec{
   padding: 0.5em;
