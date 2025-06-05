@@ -42,17 +42,16 @@ h2 {
   margin: auto auto;
   width: 90%; 
 }
+.footer-about, .links, social-links{padding:0 10%;}
 .footer-about {
   display:flex; 
   flex-direction: column;
-  padding: 0 5%;
   text-align: justify;
 color: #d5d2d2;
 }  
 .links {
   display:flex; 
   flex-direction: column;
-  padding: 0 20%;   
 }  
 .links a{
   font-size: 0.8rem;
