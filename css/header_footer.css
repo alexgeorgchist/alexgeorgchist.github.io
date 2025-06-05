@@ -25,7 +25,7 @@
   font-size: 0.8rem;
   color: #003153;  
   font-family: "PT Sans";
-  background-color: #2b1a15;
+  background-color: #484d5d;
   justify-content: center;
  }
 .first_block {
@@ -33,7 +33,7 @@
   grid-template-columns: 0.4fr 1fr 0.5fr 0.8fr;
   }
 h2 {
-  color: #857e7c;
+  color: #869db9;
   text-align: left;  
   font-size: 1.1rem;
 }
