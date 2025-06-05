@@ -101,10 +101,9 @@ a{text-decoration:none;}
 
 #footer { padding: 0 3%;}
 .first_block {grid-template-columns: 1fr;}
-.footer-about {display: none;}
 .footerlogo {display: none;}
 .footer-logo {margin: 2em auto;width: 60%;}
-.links {padding: 0 0 1em 10px;}
+.links {padding: 0 0 1em 0;}
 .links a{  
   font-size: 1rem;
   margin: 0.25em 0; /* расстояние между строками меню footer*/   
