@@ -110,7 +110,7 @@ a{text-decoration:none;}
 }
 .social-icons {
   border-top: 1px solid #a89f91;
-  padding: 1em 0 4em 0;
 }
+.footer-about, .links, .social-icons{border-top: 1px solid #4c4a4a;}
 }	
 /* footer section end */
