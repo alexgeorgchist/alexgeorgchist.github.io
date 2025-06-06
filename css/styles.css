@@ -7,7 +7,7 @@ nav {
   font-family: "PT Sans", sans-serif;
   font-style: regular;
   font-weight:normal;
-  background-color: #faf5f5;
+  background-color: #faf6f5;
   border-top: 1px solid #1f2833;
   border-bottom: 1px solid #1f2833;
   justify-content: center;
@@ -38,7 +38,7 @@ ul li a {
 @media (max-width: 768px) {  
   html, body {
   font-size: 22px;
-  background: #fffcfa;
+  background: #fffdfb;
 }
   #siteAds {display: none;}
   nav {
