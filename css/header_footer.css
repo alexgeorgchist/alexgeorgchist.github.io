@@ -20,7 +20,6 @@
 /*--------------------------------------------------
                 ПОДВАЛ FOOTER
 ----------------------------------------------------*/
-* {border: 1px solid red;}
 #footer{
   font-size: 0.9rem;    
   font-family: "PT Sans";
@@ -41,7 +40,7 @@ h2 {
   display: flex;
   flex-direction: column;
 }  
-.footer-logo img {width: 60%; margin: 0.6em auto;}
+.footer-logo img {width: 60%; margin: 1em auto 0 auto;}
 .footer-logo-name {
   font-family: "Monomakh";
   font-size: 1.3rem;
