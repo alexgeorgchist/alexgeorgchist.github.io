@@ -21,10 +21,9 @@
                 ПОДВАЛ FOOTER
 ----------------------------------------------------*/
 #footer{
-  font-size: 0.9rem;  
-  font-weight: 700;
+  font-size: 0.9rem;    
   font-family: "PT Sans";
-  background-color: #c2c0bd;
+  background-color: #f4efe3;
   justify-content: center;
  }
 .first_block {
@@ -58,7 +57,7 @@ h2 {
   font-size: 1rem;
   margin: 0.2em 0;
   color: black;
-  &:hover {color: #5d001a;}
+  &:hover {color: #5d001a;font-weight: 700;}
 }
 .social-links {
   display: flex;
@@ -96,7 +95,7 @@ a{text-decoration:none;}
 #footer { padding: 0 3%;}
 .first_block {grid-template-columns: 1fr;}
 .footerlogo {display: none;}
-.footer-logo {margin: 2em auto;width: 70%;}
+.footer-logo {margin: 2em auto;width: 50%;}
 .links a{  
   font-size: 1rem;
   margin: 0.25em 0; /* расстояние между строками меню footer*/   
