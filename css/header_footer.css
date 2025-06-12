@@ -20,11 +20,13 @@
 /*--------------------------------------------------
                 ПОДВАЛ FOOTER
 ----------------------------------------------------*/
+* {border: 1px solid red;}
 #footer{
   font-size: 0.9rem;    
   font-family: "PT Sans";
   background-color: #f4efe3;
   justify-content: center;
+  border-top: 1px solid #5d001a;
  }
 .first_block {
   display: grid;
@@ -37,8 +39,15 @@ h2 {
 }
 .footer-logo {
   display: flex;
-  margin: auto auto;
-  width: 60%; 
+  flex-direction: column;
+}  
+.footer-logo img {width: 60%; margin: 0.6em auto;}
+.footer-logo-name {
+  font-family: "Monomakh";
+  font-size: 1.6rem;
+  text-align: center;
+  color: #5d001a;  
+  margin: auto auto;  
 }
 .footer-about, .links, .social-links{padding:0 7%;}
 
@@ -94,8 +103,14 @@ a{text-decoration:none;}
 
 #footer { padding: 0 3%;}
 .first_block {grid-template-columns: 1fr;}
-.footerlogo {display: none;}
-.footer-logo {margin: 2em auto;width: 50%;}
+.footer-logo img {width: 50%; margin: 0.5em auto;}
+.footer-logo-name {
+  font-family: "Monomakh";
+  font-size: 1.4rem;
+  text-align: center;
+  color: #5d001a;  
+  margin: auto auto;  
+}
 .links a{  
   font-size: 1rem;
   margin: 0.25em 0; /* расстояние между строками меню footer*/   
