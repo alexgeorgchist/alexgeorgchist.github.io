@@ -83,14 +83,14 @@ h2 {
   justify-items: start;
 }
 .copy-right-sec{
-  padding: 0.5em;
+  padding: 0.4em;
   background: #5d001a;
   color: white;
   text-align: center;
   font-size: 0.8rem;;
 }
 .copy-right-sec a{
- color: #d5d2d2;
+ color: #fffdf6;
  font-size: 0.8rem;
 }
 a{text-decoration:none;}
@@ -99,8 +99,6 @@ a{text-decoration:none;}
 ----------------------------------------------*/      
 @media (max-width: 768px) {
 .logo_head {font: normal calc(0.8rem + 2 * (100vw - 120px) / 100) 'Monomakh';}
-
-
 .first_block {grid-template-columns: 1fr;}
 .footer-logo img {width: 45%; margin: 0.5em auto;}
 .footer-logo-name {
@@ -109,13 +107,11 @@ a{text-decoration:none;}
   text-align: center;
   color: #5d001a;  
   margin: 1em auto;  
-
 }
 .links a{  
   font-size: 1rem;
   margin: 0.25em 0; /* расстояние между строками меню footer*/   
-  text-align: left;
-  
+  text-align: left;  
 }
 .social-links img{
   height: 50px; 
