@@ -7,7 +7,7 @@
   display: flex;
   width: 100%;
   height: auto;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   font:
     normal calc(1.1em + 2 * (100vw - 120px) / 100) 'Monomakh';
