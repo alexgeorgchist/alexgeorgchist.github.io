@@ -24,14 +24,14 @@ ul {
 ul li {margin-right: 20px;}
 ul li a {
   color: #1c1c1c;
-  font-size: 1.1rem;
+  font-size: 1rem;
   &:hover {
     font-weight: 700;
     color: #5d001a;}
 }
 .checkbtn {display: none;}
-.checkbtn img {height: 30px;width: 30px;} /* Размер кнопки меню */
 #check {display: none;}
+#Aside {background-color: rgb(245, 245, 245);}
 /*----------------------------------------------------------
                МЕНЮ МОБИЛЬНОГО МАКЕТА
 ------------------------------------------------------------*/
@@ -53,6 +53,7 @@ ul li a {
     order: 2; /* Кнопка меню справа (2 позиция) */
     margin-right: 1%;  
   }
+  .checkbtn img {height: 30px;width: 30px;} /* Размер кнопки меню */
   ul {
     display: flex;
     position: fixed;

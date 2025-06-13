@@ -8,7 +8,7 @@ body {
    "nav nav"
    "article aside"
    "footer footer";
-  grid-template-rows: auto 70px 1fr 1fr; 
+  grid-template-rows: auto 45px 1fr 1fr; 
   grid-template-columns: 1fr 25%;  
   height: 100vh;
   margin: 0;
@@ -26,7 +26,7 @@ body {
    grid-template-columns: 1fr;
  }
 }
- article, nav, aside {padding: 1em;}
+ article, nav, aside {padding: 0 1em;}
 
  #pageHeader {grid-area: header;}
  #mainNav {grid-area: nav;}
