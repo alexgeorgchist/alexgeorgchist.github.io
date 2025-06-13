@@ -7,7 +7,7 @@ nav {
   font-family: "PT Sans", sans-serif;
   font-style: regular;
   font-weight:normal;
-  background-color: #faf6f5;
+  background-color: #fffdf6;
   border-top: 1px solid #1f2833;
   border-bottom: 1px solid #1f2833;
   justify-content: center;
@@ -43,8 +43,7 @@ ul li a {
   #Aside {display: none;}
   nav {
     justify-content: space-between;
-    background-color: #fff;
-  }
+      }
   .logo_nav {
     display: flex;
     font-size: 1rem;

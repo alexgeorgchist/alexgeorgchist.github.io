@@ -23,7 +23,7 @@
 #footer{
   font-size: 0.9rem;    
   font-family: "PT Sans";
-  background-color: #f4efe3;
+  background-color: #fffdf6;
   justify-content: center;
   border-top: 1px solid #5d001a;
  }
@@ -38,7 +38,7 @@ h2 {
 }
 .footer-logo {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
 }  
 .footer-logo img {width: 60%; margin: 1em auto 0 auto;}
 .footer-logo-name {
@@ -48,7 +48,7 @@ h2 {
   color: #5d001a;  
   margin: 0 auto;  
 }
-.footer-about, .footer-logo, .links, .social-links{padding:0 7%;}
+.footer-about, .links, .social-links{padding:0 7%;}
 
 .footer-about {
   display:flex; 
@@ -100,9 +100,9 @@ a{text-decoration:none;}
 @media (max-width: 768px) {
 .logo_head {font: normal calc(0.8rem + 2 * (100vw - 120px) / 100) 'Monomakh';}
 
-#footer { padding: 0 3%;}
+
 .first_block {grid-template-columns: 1fr;}
-.footer-logo img {width: 50%; margin: 0.5em auto 0 auto;}
+.footer-logo img {width: 50%; margin: 0.5em auto;}
 .footer-logo-name {
   font-family: "Monomakh";
   font-size: 0.8rem;
