@@ -4,7 +4,6 @@ User-agent: * # общие правила для роботов, кроме Ян
 Disallow: /fonts/ # папка на хостинге
 Disallow: /arhiv/
 Disallow: /admin/
-Disallow: /fonts/
 Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
@@ -12,7 +11,6 @@ User-agent: GoogleBot # правила для Google
 Disallow: /fonts/ # папка на хостинге
 Disallow: /archiv/
 Disallow: /admin/
-Disallow: /fonts/
 Sitemap: https://alexgeorgchist.github.io/sitemap.xml
 
 
@@ -20,7 +18,6 @@ User-agent: Yandex # правила для Яндекса (комментари�
 Disallow: /fonts// # папка на хостинге
 Disallow: /archiv/
 Disallow: /admin/
-Disallow: /fonts/
 Clean-Param: utm_source&utm_medium&utm_campaign # Яндекс рекомендует не закрывать
 # от индексирования, а удалять параметры меток,
 # Google такие правила не поддерживает
