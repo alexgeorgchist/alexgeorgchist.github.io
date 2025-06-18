@@ -131,8 +131,8 @@ ul li a {
 }
 
 @media (max-width: 768px) { 
-  .page-items {width: 80%;}
-.page-items a{border-radius: 0 10px 0 10px;}
+  .page-items {width: 100%;}
+.page-items a{border-radius: 0 10px 0 10px;font-size: 0.8rem;}
 }
 /*------------------------------------------------
          КНОПКИ НРАВИТСЯ НЕ НРАВИТСЯ
