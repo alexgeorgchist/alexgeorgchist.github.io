@@ -83,8 +83,29 @@ ul li a {
   #check:checked ~ ul {right: 0;}  
 }
 
-
- 
+/*------------------------------------------------
+                 СЕРАЯ КНОПКА
+--------------------------------------------------*/
+.gray-button {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 0.8rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 30px;
+  background-color: #68788d;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.gray-button a {color: white;} 
 
 /*------------------------------------------------
          КНОПКА ВОЗВРАТА BUTTON UP
@@ -112,7 +133,7 @@ ul li a {
 .next, .previous { text-decoration: none; display: inline-block; padding: 0.2em 0.8em; border: 1px solid #ccc;}
 .page-items a:hover {background-color: #ddd; color: black;}
 .previous {background-color: #f1f1f1; color: black;}
-.next {background-color: #5d001a; color: white;}
+.next {background-color: #01774c; color: white;}
 
 @media (max-width: 768px) { 
   .pages-click {font-size: 0.8rem; margin-top: 1em;}
