@@ -134,7 +134,7 @@ td {
     display: flex;
     flex-direction: column;
     color: #5d001a;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-bottom: 1em;
   }
 }
