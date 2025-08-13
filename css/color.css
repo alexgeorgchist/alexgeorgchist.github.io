@@ -15,11 +15,7 @@ img {
   outline: 2px dashed #fff; /* Ширина, вид(пунктир) и цвет рамки */
   outline-offset: -10px; /* Выводим рамку внутри элемента */
 }
-.paspartu-box {display: flex;text-align: center;}  
-.paspartu img{
-  border: 4px solid transparent;
-  width: 50%;
-}
+
 .img_hover:hover {border: 4px solid blue; /* Ширина, вид и цвет рамки */}
 
 .social-qr {
@@ -30,10 +26,13 @@ img {
 .whatsapp, .telegram, .vk {width: 90%;text-align: center;}
 .qr {width: 80%; margin: 0 auto;}
 
-.polaroid-group {
-  display: flex;
-  flex-wrap: wrap;
+.paspartu-box {display: flex; text-align: center;}  
+.paspartu img{
+  border: 4px solid transparent;
+  width: 75%;
 }
+
+.polaroid-group {display: flex; flex-wrap: wrap;}
 .polaroid {
   width: 45%;
   margin: 4em auto;
@@ -58,5 +57,6 @@ img {
   .whatsapp, .telegram {width: 100%;text-align: center;}
   .qr {width: 60%; margin: 0 auto;}
   .polaroid {width: 85%;}
-  .paspartu img{width: 100%;}
+  .paspartu-box {flex-wrap: wrap;}  
+  .paspartu img{width: 85%;}
 }
