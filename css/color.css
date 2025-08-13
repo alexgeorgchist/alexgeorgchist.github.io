@@ -30,8 +30,12 @@ img {
 .whatsapp, .telegram, .vk {width: 90%;text-align: center;}
 .qr {width: 80%; margin: 0 auto;}
 
-div.polaroid {
-  width: 85%;
+.polaroid-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.polaroid {
+  width: 45%;
   margin: 4em auto;
   background-color: white;
   box-shadow: 8px 6px 16px 0 rgba(0, 0, 0, 0.6), 12px 8px 24px 0 rgba(0, 0, 0, 0.19);
@@ -39,7 +43,7 @@ div.polaroid {
 }
 .duh-fototext {
   text-align: center;
-  padding: 10px 10px;
+  padding: 5px 10px;
 }
 
 /*----------------------------------------------------------------------------------------
@@ -53,5 +57,6 @@ div.polaroid {
 }
   .whatsapp, .telegram {width: 100%;text-align: center;}
   .qr {width: 60%; margin: 0 auto;}
+  .polaroid {width: 85%;}
   .paspartu img{width: 100%;}
 }
