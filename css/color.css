@@ -26,10 +26,14 @@ img {
 .whatsapp, .telegram, .vk {width: 90%;text-align: center;}
 .qr {width: 80%; margin: 0 auto;}
 
-.paspartu-box {display: flex; text-align: center;}  
+.paspartu-box {
+  display: flex;
+  flex-wrap: wrap;  
+  .paspartu {width: 48%;text-align: center;}
+}  
 .paspartu img{
-  border: 4px solid transparent;
-  width: 75%;
+  border: 4px solid transparent;  
+  width: 85%;
 }
 
 .polaroid-group {display: flex; flex-wrap: wrap;}
@@ -57,6 +61,7 @@ img {
   .whatsapp, .telegram {width: 100%;text-align: center;}
   .qr {width: 60%; margin: 0 auto;}
   .polaroid {width: 85%;}
-  .paspartu-box {flex-wrap: wrap;}  
-  .paspartu img{width: 85%;}
+  .paspartu-box {flex-wrap: wrap;width: 100%;
+  .paspartu {width: 100%;text-align: center;}
+  } 
 }
