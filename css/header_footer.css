@@ -58,7 +58,7 @@ h2 {
 .links-left, .links-right{display:flex; flex-direction: column;}  
 .links-left a, .links-right a{  
   margin: 0.3em 0;
-  color: blue;
+  color: black;
   &:hover {color: #5d001a;font-weight: 700;}
 }
 .social-links {
@@ -99,6 +99,7 @@ a{text-decoration:none;}
 .logo-mobile {display: flex;}
 .links-left a, .links-right a{ 
   font-size: 0.95rem;
+  color: blue;
   margin: 0.4em 0; /* расстояние между строками меню footer*/   
   text-align: left;  
 }
