@@ -58,7 +58,7 @@ h2 {
 .links-left, .links-right{display:flex; flex-direction: column;}  
 .links-left a, .links-right a{  
   margin: 0.3em 0;
-  color: black;
+  color: blue;
   &:hover {color: #5d001a;font-weight: 700;}
 }
 .social-links {
