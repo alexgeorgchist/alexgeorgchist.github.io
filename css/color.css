@@ -20,10 +20,10 @@ img {
 
 .social-qr {
   display: grid; 
-  grid-template-columns: repeat(3, 33.3%);
+  grid-template-columns: repeat(2, 50%);
   justify-items: center;
 }
-.whatsapp, .telegram, .vk {width: 90%;text-align: center;}
+.max, .whatsapp, .telegram, .vk {width: 90%;text-align: center;}
 .qr {width: 80%; margin: 0 auto;}
 
 .paspartu-box {
