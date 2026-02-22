@@ -11,9 +11,18 @@ img {
   box-shadow: 8px 6px 16px 0 rgba(0, 0, 0, 0.6), 12px 8px 24px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 1em;
 }
+.img-content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .img-content {
-  outline: 2px dashed #fff; /* Ширина, вид(пунктир) и цвет рамки */
-  outline-offset: -10px; /* Выводим рамку внутри элемента */
+  /*outline: 2px dashed #fff; /* Ширина, вид(пунктир) и цвет рамки */
+  outline-offset: -10px; /* Выводим рамку внутри элемента */*/
+  background-color: white;
+  box-shadow: 8px 6px 16px 0 rgba(0, 0, 0, 0.8), 12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+  
 }
 
 .img_hover:hover {border: 4px solid blue; /* Ширина, вид и цвет рамки */}
