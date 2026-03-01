@@ -7,7 +7,7 @@ nav {
   font-family: "PT Sans", sans-serif;
   font-style: regular;
   font-weight:normal;
-  background-color: #fffdf6;
+  background-color: #fff3f3;
   border-top: 1px solid #5d001a;
   border-bottom: 1px solid #5d001a;
   justify-content: center;
@@ -31,7 +31,12 @@ ul li a {
 }
 .checkbtn {display: none;}
 #check {display: none;}
-#Aside {background-color: rgb(245, 245, 245);}
+
+
+
+
+
+
 /*----------------------------------------------------------
                МЕНЮ МОБИЛЬНОГО МАКЕТА
 ------------------------------------------------------------*/
@@ -112,8 +117,8 @@ ul li a {
          КНОПКА ВОЗВРАТА BUTTON UP
 --------------------------------------------------*/
 .back-to-top {
-  width: 55px;
-  height: 55px;
+  width: 35px;
+  height: 35px;
   background-image: url('../img/logo/up_shevron.png');
   background-size: cover;
   position: fixed;
@@ -136,11 +141,14 @@ ul li a {
 .previous {background-color: #f1f1f1; color: black;}
 .next {background-color: #68788d; color: white;}
 
-@media (max-width: 768px) { 
+
+
+
+
+
+@media (max-width: 768px) { /* для мобильной версии */
   .pages-click {font-size: 0.8rem; margin-top: 1em;}
   .page-items {width: 100%;}
   .page-items a{border-radius: 0 10px 0 10px;}
+  .back-to-top {width: 55px;height: 55px;} 
 }
-/*------------------------------------------------
-         КНОПКИ НРАВИТСЯ НЕ НРАВИТСЯ
---------------------------------------------------*/

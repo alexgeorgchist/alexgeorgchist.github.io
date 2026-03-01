@@ -24,7 +24,7 @@
 #footer{
   font-size: 0.9rem;    
   font-family: "PT Sans";
-  background-color: #fffdf6;
+  background-color: #fff3f3;
   justify-content: center;
   border-top: 1px solid #5d001a;
  }
@@ -73,8 +73,9 @@ h2 {
 }
 .social-icons{ 
   display: grid;
-  grid-template-columns: repeat(4,25%);
-  justify-items: start;
+  grid-template-columns: repeat(2,50%);
+  justify-items: center;
+  gap: 1.8em 0em;
 }
 .copy-right-sec{
   padding: 0.4em;
@@ -108,8 +109,9 @@ a{text-decoration:none;}
   width: 50px; 
 }   
 .social-icons{   
-  justify-items: center;    
   padding: 1em 0 4em 0;
+  grid-template-columns: repeat(4,25%);
+  gap: 0em 0em;
 }
 .footer-about, .links, .social-links{border-top: 1px solid #4c4a4a;}
 }	
