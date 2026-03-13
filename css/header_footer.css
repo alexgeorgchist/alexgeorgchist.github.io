@@ -37,9 +37,9 @@
   text-align: center;
   justify-content: center;
   font:
-    normal calc(1.1em + 1 * (100vw - 120px) / 100) 'PT Sans';
+    normal 1.8em 'PT Sans';
   color: #faf5f5;
-  padding-top: 27%;
+  padding-top: 22%;
 }
 
 
