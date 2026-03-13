@@ -2,44 +2,19 @@
                          HEADER
 ---------------------------------------------------------*/
 
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.image1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  background: linear-gradient(
-  to left,
-  #333333,
-  #333333 50%,
-  #eeeeee 75%,
-  #333333 75%
-);
-  /*background-image: linear-gradient(rgba(255, 255, 255,0.4),rgba(255, 255, 255, 0), rgba(32, 0, 9, 0.4)), url('../img/website/headers/up-hram.png');*/
-}
-.image2 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 16%;
-  border: 1px green solid;
-}
-.text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  padding: 20px;
+.logo_head {  
+  background: center / cover url('../img/website/headers/up-hram.png');
+  background-image: linear-gradient(rgba(255, 255, 255,0.4),rgba(255, 255, 255, 0), rgba(32, 0, 9, 0.4)), url('../img/website/headers/up-hram.png');
+  display: flex;
+  width: 100%;
+  height: auto;
   text-align: center;
   justify-content: center;
   font:
-    normal 1.8em 'PT Sans';
+    normal calc(1.1em + 1 * (100vw - 120px) / 100) 'PT Sans';
   color: #faf5f5;
-  padding-top: 22%;
+  /*text-shadow: #541313 5px 5px 0.1rem;*/
+  padding-top: 27%;
 }
 
 
@@ -119,16 +94,9 @@ a{text-decoration:none;}
       Изменения для мобильной верстки header  и footer
 ----------------------------------------------*/      
 @media (max-width: 768px) {
-.image2 {
-  position: absolute;
-  top: 5%;
-  left: 2%;
-  width: 16%;
-  border: 1px green solid;
-}
-.text-overlay {
-  font: normal 0.8rem 'PT Sans';
-  padding-top: 20%;
+.logo_head {
+  font: normal 1.2rem 'PT Sans';
+  background-image: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0), rgba(32, 0, 9, 0.7)), url('../img/website/headers/up-hram.png');
 }
 /*.logo_head {font: normal calc(2rem + 2 * (100vw - 120px) / 100) 'PT Sans';}*/
 .first_block {grid-template-columns: 1fr;}
