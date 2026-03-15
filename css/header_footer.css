@@ -4,7 +4,7 @@
 
 .logo_head {  
   background: center / cover url('../img/website/headers/up-hram.png');
-  background-image: linear-gradient(rgba(255, 255, 255,0.4),rgba(255, 255, 255, 0), rgba(32, 0, 9, 0.4)), url('../img/website/headers/up-hram.png');
+  background-image: linear-gradient(rgba(255, 255, 255,0.4),rgba(255, 255, 255, 0), rgba(32, 0, 9, 0.6)), url('../img/website/headers/up-hram.png');
   display: flex;
   width: 100%;
   height: auto;
@@ -96,7 +96,7 @@ a{text-decoration:none;}
 @media (max-width: 768px) {
 .logo_head {
   font: normal 1.1rem 'PT Sans';
-  background-image: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0), rgba(32, 0, 9, 0.7)), url('../img/website/headers/up-hram.png');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0), rgba(32, 0, 9, 0.8)), url('../img/website/headers/up-hram.png');
 }
 /*.logo_head {font: normal calc(2rem + 2 * (100vw - 120px) / 100) 'PT Sans';}*/
 .first_block {grid-template-columns: 1fr;}
