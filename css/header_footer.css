@@ -1,38 +1,6 @@
 /*---------------------------------------------------------
                          HEADER
 ---------------------------------------------------------*/
-.parent {
-  display: inline-block;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.text-overlay {
-  position: absolute;
-  width: 90%;
-  top: 87%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font: normal calc(1.1em + 1 * (100vw - 120px) / 100) 'PT Sans';
-  color: #faf5f5;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-  /*border: 1px rgb(255, 0, 234) solid;*/
-}
-.image1 {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.image2 {
-  position: absolute;
-  width: 15%;
-  top: 5%;
-  left: 4%;
-  border: 1px green solid;
-}
-
-
 .logo_head {  
   background: center / cover url('../img/website/headers/up-hram.png');
   background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0), rgba(32, 0, 9, 0.6)), url('../img/website/headers/up-hram.png');
@@ -41,10 +9,10 @@
   height: auto;
   text-align: center;
   justify-content: center;
-  font: normal calc(1.2em + 1 * (100vw - 120px) / 100) 'PT Sans';
+  font: normal calc(1.3em + 1 * (100vw - 120px) / 100) 'PT Sans';
   color: #faf5f5;
-  /*text-shadow: #541313 5px 5px 0.1rem;*/
-  padding-top: 20%;
+  text-shadow: #000000 5px 5px 0.1rem;
+  padding-top: 27%;
 }
 
 
@@ -120,23 +88,17 @@ h2 {
  font-size: 0.8rem;
 }
 a{text-decoration:none;}
+
+
+
 /*----------------------------------------------
-      Изменения для мобильной верстки header  и footer
+  Изменения для мобильной верстки header  и footer
 ----------------------------------------------*/      
 @media (max-width: 768px) {
-.text-overlay {
-  position: absolute;
-  width: 90%;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font: 1em 'PT Sans';
-  color: #faf5f5;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-  /*border: 1px rgb(255, 0, 234) solid;*/
+.logo_head {
+  font: 1.2rem 'PT Sans';
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0), rgba(93, 0, 26, 0.6)), url('../img/website/headers/up-hram.png');
 }
-/*.logo_head {font: normal calc(2rem + 2 * (100vw - 120px) / 100) 'PT Sans';}*/
 .first_block {grid-template-columns: 1fr;}
 .footer-logo img {width: 85%; margin: 1em auto;}
 .logo-desktop {display: none;}
