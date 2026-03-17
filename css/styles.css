@@ -71,7 +71,7 @@ ul li a {
     background: center / cover url('../img/menu/menu_background-fiolet.png');
     /*background-color: #3d3331;*/
     top: 1px;
-    border: 10px solid #030b25;
+    border: 10px solid #2c0028;
     right: calc(-100% - 20px);    
     width: calc(100% - 20px);
     height: calc(100vh - 20px);           
@@ -121,7 +121,7 @@ ul li a {
 .back-to-top {
   width: 35px;
   height: 35px;
-  background-image: url('../img/logo/up_shevron.png');
+  background-image: url('../img/logo/black_shevron.png');
   background-size: cover;
   position: fixed;
   bottom: 20px;
