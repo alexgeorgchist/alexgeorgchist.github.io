@@ -43,6 +43,11 @@ img {
 .paspartu img{
   border: 4px solid transparent;  
   width: 85%;
+  
+  outline-offset: -10px; /* Выводим рамку внутри элемента */*/
+  background-color: white;
+  box-shadow: 8px 6px 16px 0 rgba(0, 0, 0, 0.8), 12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
 }
 
 .polaroid-group {display: flex; flex-wrap: wrap;}
