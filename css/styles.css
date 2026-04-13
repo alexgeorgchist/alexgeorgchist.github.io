@@ -68,7 +68,7 @@ ul li a {
     justify-content: center;
     align-items: center;
     transition: all 0.5s;    
-    background: center / cover url('../img/menu/menu_background-fiolet.png');
+    background: center / cover url('../img/menu/menu_background.png');
     /*background-color: #3d3331;*/
     top: 1px;
     border: 10px solid #2c0028;
