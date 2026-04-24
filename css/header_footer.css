@@ -96,7 +96,7 @@ a{text-decoration:none;}
 ----------------------------------------------*/      
 @media (max-width: 768px) {
 .logo_head {
-  font: 1.2rem 'PT Sans';
+  font: 1rem 'PT Sans';
   background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0), rgba(93, 0, 26, 0.6)), url('../img/website/headers/up-hram.png');
 }
 .first_block {grid-template-columns: 1fr;}
