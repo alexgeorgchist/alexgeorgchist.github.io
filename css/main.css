@@ -12,7 +12,9 @@ body {
   grid-template-columns: 1fr 25%;  
   height: 100vh;
   margin: 0;
- } 
+ }
+
+ 
  /* Макет для маленьких устройств/экранов */
  @media all and (max-width: 768px) {
  body { 
@@ -26,6 +28,8 @@ body {
    grid-template-columns: 1fr;
  }
 }
+
+
  article, nav, aside {padding: 0 1em;}
 
  #pageHeader {grid-area: header;}
