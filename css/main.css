@@ -1,54 +1,68 @@
 /* -------------------------------------------------
        ОСНОВНЫЕ НАСТРОЙКИ АДАПТИВНОЙ СЕТКИ
-   -----------------------------------------------*/  
-body { 
+   -----------------------------------------------*/
+body {
   display: grid;
-  grid-template-areas: 
-   "header header"
-   "nav nav"
-   "article aside"
-   "footer footer";
-  grid-template-rows: auto 1fr 1fr 1fr; 
-  grid-template-columns: 1fr 25%;  
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "article aside"
+    "footer footer";
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-columns: 1fr 25%;
   height: 100vh;
   margin: 0;
- }
-
- 
- /* Макет для маленьких устройств/экранов */
- @media all and (max-width: 768px) {
- body { 
-   grid-template-areas: 
-     "header"
-     "nav"
-     "article"
-     "aside"
-     "footer";
-   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-   grid-template-columns: 1fr;
- }
 }
 
+/* Макет для маленьких устройств/экранов */
+@media all and (max-width: 768px) {
+  body {
+    grid-template-areas:
+      "header"
+      "nav"
+      "article"
+      "aside"
+      "footer";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}
 
- article, nav, aside {padding: 0 1em;}
+article,
+nav,
+aside {
+  padding: 0 1em;
+}
 
- #pageHeader {grid-area: header;}
- #mainNav {grid-area: nav;}
- #mainArticle {grid-area: article;}
- #Aside {grid-area: aside;}
- #pageFooter {grid-area: footer;}
+#pageHeader {
+  grid-area: header;
+}
+#mainNav {
+  grid-area: nav;
+}
+#mainArticle {
+  grid-area: article;
+}
+#Aside {
+  grid-area: aside;
+}
+#pageFooter {
+  grid-area: footer;
+}
 
-
- 
-html, body {
+html,
+body {
   font-family: "PT Sans", sans-serif;
-  font-size: 16px; 
+  font-size: 16px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 /*-----------------------------------------------*/
 
-#mainArticle {background-color: rgb(250, 250, 250);}
-#Aside {background-color: rgb(235, 235, 235);}
-
+#mainArticle {
+  background-color: rgb(250, 250, 250);
+}
+#Aside {
+  background-color: rgb(235, 235, 235);
+}
