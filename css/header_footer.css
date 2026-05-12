@@ -153,7 +153,7 @@ a {
   }
   .links-left a,
   .links-right a {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     color: blue;
     margin: 0.4em 0; /* расстояние между строками меню footer*/
     text-align: left;
