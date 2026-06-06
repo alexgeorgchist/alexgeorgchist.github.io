@@ -268,7 +268,7 @@ figure.effect-text-three:hover p {
   .paspartu-box {
     flex-wrap: wrap;
     width: 100%;
-    .hover-text-one {
+    .paspartu {
       width: 100%;
       text-align: center;
     }
