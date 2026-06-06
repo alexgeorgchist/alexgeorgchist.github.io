@@ -1,0 +1,279 @@
+/* --------------------------------------------------------
+        ДЕКОР КАРТИНОК
+--------------------------------------------------------*/
+img {
+  width: 100%; /* Подстраивается под размер любого контейнера */
+  height: auto; /* Пропорции не меняются при изменении размера */
+}
+.img_decor {
+  outline: 15px groove #fdf5e6; /* Ширина, вид(обрамление рамки) и цвет рамки */
+  outline-offset: -15px; /* Выводим рамку внутри элемента */
+  box-shadow:
+    8px 6px 16px 0 rgba(0, 0, 0, 0.6),
+    12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1em;
+}
+.img-content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-content {
+  /*outline: 2px dashed #fff; /* Ширина, вид(пунктир) и цвет рамки */
+  outline-offset: -10px; /* Выводим рамку внутри элемента */
+  background-color: white;
+  box-shadow:
+    8px 6px 16px 0 rgba(0, 0, 0, 0.8),
+    12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+  width: 60%;
+}
+
+.img_hover:hover {
+  border: 4px solid blue; /* Ширина, вид и цвет рамки */
+}
+
+.social-qr {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-items: center;
+}
+.max,
+.whatsapp,
+.telegram,
+.vk {
+  width: 90%;
+  text-align: center;
+}
+.qr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.paspartu-box {
+  display: flex;
+  flex-wrap: wrap;
+  .paspartu {
+    width: 48%;
+    text-align: center;
+  }
+}
+.paspartu img {
+  border: 4px solid transparent;
+  width: 85%;
+  outline-offset: -10px; /* Выводим рамку внутри элемента */
+  background-color: white;
+  box-shadow:
+    8px 6px 16px 0 rgba(0, 0, 0, 0.8),
+    12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+}
+
+.polaroid-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.polaroid {
+  width: 45%;
+  margin: 4em auto;
+  background-color: white;
+  box-shadow:
+    8px 6px 16px 0 rgba(0, 0, 0, 0.6),
+    12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.duh-fototext {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+
+
+
+
+/* Стиль оформления расписания*/
+*, *:after, *:before { 
+	border-box; 
+	box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+    overflow: hidden;
+	margin: 0;
+	width: 48%;
+	list-style: none;
+	text-align: center;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 1;
+}
+.hover-text-one figure figcaption {
+	margin: 0 auto;
+  text-fit: shrink per-line 50%;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hover-text-one figure h3 {
+  display: flex;
+  height: 40%;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 10%;
+  word-spacing: -0.15em;
+	font-weight: 600;
+  margin: 0;
+  color: rgb(160, 33, 1);
+}
+.hover-text-one figure h3 span {
+	font-size: 100%;
+}
+.hover-text-one figure p {
+  display: flex;
+  height: 60%;
+ text-align: center;
+  align-items: start;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+	font-size: 65%;
+  font-weight: 600;
+}
+
+/* Эффект при наведении */
+figure.effect-text-three {
+	background: #ffffff;
+}
+figure.effect-text-three img {
+	width: 100%;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.025);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+figure.effect-text-three:hover img {
+  filter: blur(1.6px); /* Размытие изображения */
+	opacity: 0.75;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+
+/* Стиль Расписание */
+figure.effect-text-three h3 {
+  position: relative;
+	overflow: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+	transition: opacity 0.6s, transform 0.6s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three:hover h3 {
+opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/* Стиль полосочки */
+figure.effect-text-three h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 80%;
+	height: 2px;
+	background: #000000;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.5s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-90%,0,0);
+}
+figure.effect-text-three:hover h3::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(10%,0,0);
+}
+
+/* Стиль Седмица */
+figure.effect-text-three p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.55s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+     
+     
+     
+     
+
+/*----------------------------------------------------------------------------------------
+           НАСТРОЙКИ ДЛЯ МОБИЛЬНОЙ ВЕРСТКИ
+----------------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .social-qr {
+    /*QRcodes for contacts.html */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em 0;
+  }
+  .whatsapp,
+  .telegram {
+    width: 100%;
+    text-align: center;
+  }
+  .qr {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .polaroid {
+    width: 85%;
+  }
+  .paspartu-box {
+    flex-wrap: wrap;
+    width: 100%;
+    .paspartu {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .img-content {
+    width: 90%;
+  }
+}
