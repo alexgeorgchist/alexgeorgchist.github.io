@@ -78,7 +78,7 @@ ul li a {
     justify-content: center;
     align-items: center;
     transition: all 0.5s;
-    background: center / cover url("../img/menu/menu_background-red.png");
+    background: center / cover url("../img/menu/menu_background-yellow.png");
     /*background-color: #3d3331;*/
     top: 1px;
     border: 15px solid #471103;
