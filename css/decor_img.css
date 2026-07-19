@@ -23,7 +23,7 @@ img {
   outline-offset: -10px; /* Выводим рамку внутри элемента */
   background-color: white;
   box-shadow:
-    8px 6px 16px 0 rgba(0, 0, 0, 0.8),
+  8px 6px 16px 0 rgba(0, 0, 0, 0.9),
     12px 8px 24px 0 rgba(0, 0, 0, 0.19);
   width: 60%;
 }
