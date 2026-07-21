@@ -38,7 +38,7 @@
 }
 h2 {
   color: #5d001a;
-  text-align: left;
+  text-align: center;
   font-size: 1.1rem;
 }
 .footer-logo {
@@ -162,9 +162,10 @@ a {
     height: 50px;
     width: 50px;
   }
+  h2 {text-align: left;}
   .social-icons {
     padding: 1em 0 4em 0;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(2, 50%); /* 2 столбика по 50% */
     gap: 0em 0em;
   }
   .footer-about,
