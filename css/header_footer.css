@@ -15,7 +15,7 @@
   height: auto;
   text-align: center;
   justify-content: center;
-  font: normal calc(2em + 1 * (100vw - 120px) / 100) "Secession";
+  font: normal calc(2em + 1 * (100vw - 120px) / 100) "Secession-Light";
   color: #faf5f5;
   text-shadow: #000000 5px 5px 0.1rem;
   padding-top: 27%;
@@ -129,7 +129,7 @@ a {
 ----------------------------------------------*/
 @media (max-width: 768px) {
   .logo_head {
-    font: 0.8rem "Secession";
+    font: 1.2rem "Secession-Light";
     background-image:
       linear-gradient(
         rgba(255, 255, 255, 0.3), /* Подсветка цветом слоем верх */

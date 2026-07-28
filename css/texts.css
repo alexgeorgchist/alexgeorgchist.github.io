@@ -28,11 +28,11 @@
     url("../fonts/Vertograd-Regular.ttf");
 }
 @font-face {
-  font-family: "Secession";
+  font-family: "Secession-Light";
   font-style: normal;
   font-weight: 400;
   /* Браузер сначала попробует найти шрифт локально */
-  src: local("Secession"), url("../fonts/Secession_Light.ttf");
+  src: local("Secession-Light"), url("../fonts/Secession_Light.ttf");
 }
 .monomakh-regular {
   font-family: "Monomakh", system-ui;
