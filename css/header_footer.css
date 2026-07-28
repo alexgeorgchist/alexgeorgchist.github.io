@@ -5,9 +5,9 @@
   background: center / cover url("../img/website/headers/up-hram.png");
   background-image:
     linear-gradient(
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0),
-      rgba(32, 0, 9, 0.6)
+      rgba(255, 255, 255, 0.4), /* Подсветка цветом слоем верх */
+      rgba(255, 255, 255, 0),   /* Подсветка цветом слоем середина */
+      rgba(32, 0, 9, 0.6)       /* Подсветка цветом слоем низ */
     ),
     url("../img/website/headers/up-hram.png");
   display: flex;
@@ -15,7 +15,7 @@
   height: auto;
   text-align: center;
   justify-content: center;
-  font: normal calc(1.3em + 1 * (100vw - 120px) / 100) "PT Sans";
+  font: normal calc(2em + 1 * (100vw - 120px) / 100) "Secession";
   color: #faf5f5;
   text-shadow: #000000 5px 5px 0.1rem;
   padding-top: 27%;
@@ -129,12 +129,13 @@ a {
 ----------------------------------------------*/
 @media (max-width: 768px) {
   .logo_head {
-    font: 1rem "PT Sans";
+    font: 1.2rem "Secession";
     background-image:
       linear-gradient(
-        rgba(255, 255, 255, 0.4),
-        rgba(255, 255, 255, 0),
-        rgba(93, 0, 26, 0.6)
+        rgba(255, 255, 255, 0.3), /* Подсветка цветом слоем верх */
+        rgba(255, 255, 255, 0),   /* Подсветка цветом слоем середина */
+        rgba(40, 0, 10, 0.4),     /* Подсветка цветом слоем середина */
+        rgba(40, 0, 10, 0.8)      /* Подсветка цветом слоем низ */
       ),
       url("../img/website/headers/up-hram.png");
   }

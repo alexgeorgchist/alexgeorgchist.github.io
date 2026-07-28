@@ -27,13 +27,6 @@
     local("Vertograd"), url("../fonts/Vertograd-Regular.woff2"),
     url("../fonts/Vertograd-Regular.ttf");
 }
-@font-face {
-  font-family: "Secession";
-  font-style: normal;
-  font-weight: 400;
-  /* Браузер сначала попробует найти шрифт локально */
-  src: local("Secession"), url("../fonts/Secession_Light.ttf");
-}
 .monomakh-regular {
   font-family: "Monomakh", system-ui;
   font-weight: 400;
