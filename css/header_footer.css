@@ -129,7 +129,7 @@ a {
 ----------------------------------------------*/
 @media (max-width: 768px) {
   .logo_head {
-    font: 1rem "Secession";
+    font: 0.8rem "Secession";
     background-image:
       linear-gradient(
         rgba(255, 255, 255, 0.3), /* Подсветка цветом слоем верх */
