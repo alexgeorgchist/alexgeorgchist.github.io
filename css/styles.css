@@ -91,7 +91,7 @@ ul li a {
   }
   ul li a {
     color: white;
-    font-size: 1rem;
+    font-size: 1.6rem;
     text-shadow: 2px 2px black;
     font-weight: 400;
     &:hover {
