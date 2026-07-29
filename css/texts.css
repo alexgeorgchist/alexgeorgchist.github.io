@@ -71,14 +71,15 @@
   font-family: "PT Sans", sans-serif;
   font-size: 1.4rem;
   font-style: regular;
+  font-weight: normal;
   font-weight: 500;
   /*color: #5d001a;  Темный текст на белом фоне фоне */
 }
 .block_subtitle {
   font-family: "PT Sans", sans-serif;
   font-size: 1.2rem;
-  font-style: normal;
-  font-weight: 400;
+  font-style: regular;
+  font-weight: 500;
 }
 .block_text {
   font-family: "PT Sans", sans-serif;

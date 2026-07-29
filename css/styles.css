@@ -28,11 +28,10 @@ ul li {
   margin-right: 20px;
 }
 ul li a {
-  color: #1c1c1c;
+  color: #5d001a;
   font-size: 1rem;
   &:hover {
     font-weight: 700;
-    color: #5d001a;
   }
 }
 .checkbtn {
@@ -97,6 +96,7 @@ ul li a {
     &:hover {
       text-decoration: none;
       color: #ececec;
+      font-weight: 400;
     }
   }
   #check:checked ~ ul {
