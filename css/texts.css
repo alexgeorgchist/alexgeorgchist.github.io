@@ -72,7 +72,7 @@
   font-size: 1.4rem;
   font-style: regular;
   font-weight: 500;
-  color: #5d001a; /* Темный текст на белом фоне фоне */
+  /*color: #5d001a;  Темный текст на белом фоне фоне */
 }
 .block_subtitle {
   font-family: "PT Sans", sans-serif;
