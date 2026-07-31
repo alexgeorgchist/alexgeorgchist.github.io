@@ -37,6 +37,7 @@
   grid-template-columns: 0.3fr 1fr 0.7fr 0.5fr;
 }
 h2 {
+  font-family: "Secession-Light";
   color: #5d001a;
   text-align: center;
   font-size: 1.1rem;
