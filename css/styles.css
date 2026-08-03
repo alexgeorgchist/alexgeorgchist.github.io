@@ -86,13 +86,13 @@ ul li a {
     height: calc(100vh - 30px);
   }
   ul li {
-    margin: 0.4em 0;
+    margin: 0.6em 0;
   }
   ul li a {
     color: white;
     font-family: "PT Sans";
     font-size: 1.2rem;
-    text-shadow: 2px 2px black;
+    text-shadow: 3px 3px black;
     font-weight: 400;
     &:hover {
       text-decoration: none;
