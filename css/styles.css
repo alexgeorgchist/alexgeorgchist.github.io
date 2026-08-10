@@ -106,7 +106,7 @@ ul li a {
 }
 
 /*------------------------------------------------
-                 СЕРАЯ КНОПКА
+                 КОРИЧНЕВАЯ КНОПКА
 --------------------------------------------------*/
 .gray-button {
   border: 0;
@@ -116,7 +116,7 @@ ul li a {
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   border-radius: 30px;
-  background-color: #68788d;
+  background-color: #5d001a;
   background-image: linear-gradient(
     to top left,
     rgba(0, 0, 0, 0.2),
@@ -124,8 +124,8 @@ ul li a {
     rgba(0, 0, 0, 0)
   );
   box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    8px 6px 16px 0 rgba(0, 0, 0, 0.9),  /* тень (опционально) */
+    12px 8px 24px 0 rgba(0, 0, 0, 0.19);/* тень (опционально) */
   /*box-shadow: 8px 6px 16px 0 rgba(0, 0, 0, 0.8), 12px 8px 24px 0 rgba(0, 0, 0, 0.19);*/
 }
 .gray-button a {

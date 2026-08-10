@@ -15,8 +15,8 @@ img {
   outline-offset: -10px; /* Выводим рамку внутри элемента */
   background-color: white;
   box-shadow:
-    8px 6px 16px 0 rgba(0, 0, 0, 0.9),
-    12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+    8px 6px 16px 0 rgba(0, 0, 0, 0.9),  /* тень (опционально) */
+    12px 8px 24px 0 rgba(0, 0, 0, 0.19);/* тень (опционально) */
   width: 60%;
 }
 
@@ -55,8 +55,8 @@ img {
   outline-offset: -10px; /* Выводим рамку внутри элемента */
   background-color: white;
   box-shadow:
-    8px 6px 16px 0 rgba(0, 0, 0, 0.8),
-    12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+    8px 6px 16px 0 rgba(0, 0, 0, 0.8),  /* тень (опционально) */
+    12px 8px 24px 0 rgba(0, 0, 0, 0.19);/* тень (опционально) */
   width: 80%;
 }
 
@@ -69,15 +69,34 @@ img {
   margin: 4em auto;
   background-color: white;
   box-shadow:
-    8px 6px 16px 0 rgba(0, 0, 0, 0.6),
-    12px 8px 24px 0 rgba(0, 0, 0, 0.19);
+    8px 6px 16px 0 rgba(0, 0, 0, 0.6),  /* тень (опционально) */
+    12px 8px 24px 0 rgba(0, 0, 0, 0.19);/* тень (опционально) */
   margin-bottom: 25px;
 }
 .duh-fototext {
   text-align: center;
   padding: 5px 10px;
 }
-
+.week-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.week-square {
+        width: 1.6em;
+        height: 1.6em;
+        background-color: #5d001a; /* цвет фона */
+        color: white;               /* цвет текста */
+        display: flex;              /* центрирование текста */
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        border-radius: 8px;        /* можно убрать, если нужны острые углы */
+        box-shadow:
+        6px 4px 8px 0 rgba(0, 0, 0, 0.6), /* тень (опционально) */
+        8px 6px 8px 0 rgba(0, 0, 0, 0.19);/* тень (опционально) */
+        margin-right: 0.4em;
+      }
 /*----------------------------------------------------------------------------------------
            НАСТРОЙКИ ДЛЯ МОБИЛЬНОЙ ВЕРСТКИ
 ----------------------------------------------------------------------------------------*/
