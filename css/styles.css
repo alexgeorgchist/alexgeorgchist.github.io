@@ -78,7 +78,6 @@ ul li a {
     align-items: center;
     transition: all 0.5s;
     background: center / cover url("../img/menu/menu_background-red.png");
-    /*background-color: #3d3331;*/
     top: 1px;
     border: 15px solid #682b1b;
     right: calc(-100% - 30px);
@@ -106,7 +105,7 @@ ul li a {
 }
 
 /*------------------------------------------------
-                 КОРИЧНЕВАЯ КНОПКА
+                 СЕРАЯ КНОПКА
 --------------------------------------------------*/
 .gray-button {
   border: 0;
@@ -116,7 +115,8 @@ ul li a {
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   border-radius: 30px;
-  background-color: #5d001a;
+  background-color: #536b79; /* цвет фона */
+;
   background-image: linear-gradient(
     to top left,
     rgba(0, 0, 0, 0.2),
