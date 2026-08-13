@@ -90,7 +90,7 @@ ul li a {
   ul li a {
     color: white;
     font-family: "PT Sans";
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-shadow: 3px 3px black;
     font-weight: 400;
     &:hover {
