@@ -85,7 +85,8 @@ img {
 .week-square {
         width: 1.6em;
         height: 1.6em;
-        background-color: #1a5464; /* цвет фона */
+        background-color:#536b79; /* цвет фона */
+; /* цвет фона */
         color: white;               /* цвет текста */
         display: flex;              /* центрирование текста */
         justify-content: center;
