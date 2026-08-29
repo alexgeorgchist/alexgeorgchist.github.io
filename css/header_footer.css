@@ -35,7 +35,7 @@
 }
 .first_block {
   display: grid;
-  grid-template-columns: 0.3fr 1fr 0.7fr 0.5fr;
+  grid-template-columns: 0.3fr 1fr 0.7fr 0.4fr;
 }
 h2 {
   font-family: "Secession-Light";
@@ -148,7 +148,7 @@ a {
   }
   .footer-logo img {
     width: 85%;
-    margin: 1em auto;
+    margin: 0.5em auto;
   }
   .logo-desktop {
     display: none;
@@ -179,7 +179,7 @@ a {
   .footer-about,
   .links,
   .social-links {
-    border-top: 1px solid #4c4a4a;
+    border-top: 1px solid #5d001a;
   }
 }
 /* footer section end */
